@@ -1,4 +1,4 @@
-# 二、设计与「刻意行为」
+# Design and Intentional Operations / 设计与「刻意行为」
 
 > The beginning of the study of design as a liberal art can be traced to the cultural upheaval that occurred in the early part of the twentieth century. 
 
