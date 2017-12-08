@@ -1,4 +1,4 @@
-# Design and Intentional Operations / 设计与「刻意行为」
+# Design and Intentional Operations / 设计与「策划的活动」
 
 > The beginning of the study of design as a liberal art can be traced to the cultural upheaval that occurred in the early part of the twentieth century. 
 
@@ -17,6 +17,8 @@ upheaval 指 (a) great change, especially causing or involving much difficulty, 
 ```
 the universe 的朗文翻译为 "all space, including all the stars and planets" 显然是指宇宙、世界万物的意思。
 perception 
+
+
 我们现在这些研究设计的人，没有一个人针对去研究过”知识“这个事情。没有一个体系或者方法论来构建知识的形成，那么设计思维始终是一个没有理论依据的玄学。而实际上这些有效的体系或者方法论，是存在于哲学范畴之内的。
 比如这里提到的约翰杜威就是美国“实用主义”的先驱。
 但是很可惜，似乎没有一个搞设计学研究的真正去梳理过设计学的哲学发展脉络，如何引入哲学体系为自己所用。
@@ -35,10 +37,14 @@ perception
 
 > The new center is indefinite interactions taking place within a course of nature which is not fixed and complete, but which is capable of direction to new and different results through the mediation of intentional operations.
 
-新中心是在自然过程中发生的模糊的相互作用，它不是固定、完整的，而是可以通过「刻意行为」来导向新的、不同结果的。
+新中心是在自然过程中发生的模糊的相互作用，它不是固定、完整的，而是可以通过「策划的活动」来导向新的、不同结果的。
 
 ```
 但是新的认知中心转移了。
+course是什么意思 nature是什么意思
+indefinite 意味着是没有被良好定义的
+intentional 应该是策划的 蓄意的意思。
+operations 是复数 在可数名词中只有 企业和 （有目的）的活动、行动这个两个含义，那么这边必然是后者。因此 intentional operations 的意思则应该是 经过策划的活动。
 ```
 
 
@@ -115,23 +121,29 @@ lay hold of 意思是 了解、抓住、控制。
 
 > Although the neo-positivists courted Dewey for a time, it was apparent that his understanding of the development of science in the twentieth century was quite different from their understanding.
 
-虽然新实证主义曾经尝试过拉拢杜威。但是很明显，他对在第二十世纪科学发展的理解是和他们完全不同的。
+虽然新实证主义者曾经尝试过拉拢杜威，但是很明显杜威对二十世纪科学发展的理解和他们完全不同。
 
 > Instead of treating science as primary and art as secondary, Dewey pointed toward science as art.
 
-杜威没有以科学为主，艺术为次，而是把科学当作艺术。
+杜威没有把科学放第一，艺术放第二，而是指出科学和艺术一样。
 
 > The consideration that completes the ground for assimIlating science to art is the fact that assignment of scientific status in any given case rests upon facts which are experimentally produced. 
 
-完成科学与艺术的融合，需要考虑是一个事实，那就是在任何情况下，?科学地位的分配?取决于实验的结果。
+完善科学与艺术的融合的基础，需要考虑是一个事实，那就是在任何情况下， 取决于实验的结果。
+
+```
+assignment 这里是不可数名词，而作为不可数名词的意思在朗文中是 “分配（任务）；指派（人员）”
+status 地位; 情形，状态; 身份 分布：地位(71%)，身份(24%)，情形(5%)
+
+```
 
 > Science is now the product of operations deliberately undertaken in conformity with a plan or project that has the properties of a working hypothesis. 
 
-现在的科学是一系列周密计划和精密操作的产物，它现在具有一个很重要的属性就是：「基础假设」。
+现在的科学是一系列周密计划和精密操作的结果。这些计划具有一个很重要的属性就是：「基础假设」。
 
 > What Dewey means by “art”in this context is crucial to understanding the new role of design and technology in contemporary culture.
 
-杜威在这一背景下所指的“艺术”对于理解当代文化中设计和技术的新角色至关重要。
+杜威在这一语境下所指的“艺术”对于理解当代文化中设计和技术的新角色至关重要。
 
 > After a period in which natural knowledge progressed by borrowing from the industrial crafts, science entered upon a period of steady and ever-accelerated growth by means of deliberate invention of such appliances on its own account. 
 
@@ -155,7 +167,7 @@ lay hold of 意思是 了解、抓住、控制。
 
 > It is, in fact, intentional operations themselves carried out in the sciences, the arts of production, or social and political action. 
 
-事实上，它是在科学、生产 技巧或社会和政治行动中进行的「刻意行为」。
+事实上，它是在科学、生产 技巧或社会和政治行动中进行的「策划的活动」。
 
 > We mistakenly identify technology with one particular type of product-hardware-that may result from experimental thinking, but overlook the art that lies behind and provides the basis for creating other types of products.
 
@@ -167,7 +179,7 @@ lay hold of 意思是 了解、抓住、控制。
 
 > There is no area of contemporary life where design——the plan, project, or working hypothesis which constitutes the“intention”in intentional operations——is not a significant factor in shaping human experience.
 
-在当代生活中任何一个领域，设计——那些计划、项目或假设这些构成刻意行为中的“意图”的要素——都是塑造人类经验的重要因素。
+在当代生活中任何一个领域，设计——那些计划、项目或假设这些构成策划的活动中的“意图”的要素——都是塑造人类经验的重要因素。
 
 >  Design even extends into the core of traditional scientific activities, where it is employed to cultivate the subject matters that are the focus of scientific curiosity. 
 
