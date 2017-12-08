@@ -2,52 +2,112 @@
 
 > The beginning of the study of design as a liberal art can be traced to the cultural upheaval that occurred in the early part of the twentieth century. 
 
-作为一门博雅学科来研究的话，设计的开端可以追溯到二十世纪初发生的文化剧变。
+把设计作为一门博雅学科来研究的话，研究的开端可以追溯到二十世纪初发生的文化巨变。
 
-> The key feature of this upheaval was described by John Dewey in *The Quest for Certainty* as the perception of a new center of the universe.
+```
+upheaval 指 (a) great change, especially causing or involving much difficulty, activity or trouble 一场巨大的变化，尤其指有很多困难难的、活跃的、有问题的。
+```
 
-这种聚变的关键特征在约翰·杜威 (John Dewey) 的  《确定性的寻求：一种知行关系的研究》中心。
+
+
+> The key feature of this upheaval was described by *John Dewey* in *The Quest for Certainty* as the perception of a new center of the universe.
+
+约翰·杜威 (John Dewey) 在  《确定性的寻求：一种知行关系的研究》中把对宇宙万物的一个新的中心的感知 作为这种巨变的核心特征。
+
+```
+the universe 的朗文翻译为 "all space, including all the stars and planets" 显然是指宇宙、世界万物的意思。
+perception 
+我们现在这些研究设计的人，没有一个人针对去研究过”知识“这个事情。没有一个体系或者方法论来构建知识的形成，那么设计思维始终是一个没有理论依据的玄学。而实际上这些有效的体系或者方法论，是存在于哲学范畴之内的。
+比如这里提到的约翰杜威就是美国“实用主义”的先驱。
+但是很可惜，似乎没有一个搞设计学研究的真正去梳理过设计学的哲学发展脉络，如何引入哲学体系为自己所用。
+```
 
 > The old center of the universe was the mind knowing by means of an equipment of powers complete within itself, and merely exercised upon an antecedent external material equally complete within itself.
 
-?旧的领域中心的思想是，通过 自我完成 的 技能/设备 of 能力 来了解，并且仅通过   自我完成 的以前的外部材料  来练习?
+旧的万物中心的思想是，通过 自我完成的  技能/知识 of 能力 的方法 来认知，并且仅通过   同样自我完成的 的先前的资料 来验证。
+
+```
+ center of the universe 我觉得应该研究哲学的人应该有专门对这个词的专用名词？所以要理解清楚是不是还需要找哲学系的同学交流一下呢？
+ 
+这里可能想表述的意思是在 自己这个范围里面来进行学习，通过自己以前遇到的东西、案例、经验进行验证。即学科的自我完备性。
+杜威提到旧的对宇宙万物认知的思想是在一个学科里面就能够完成对这个学科所研究对象的认知。
+```
 
 > The new center is indefinite interactions taking place within a course of nature which is not fixed and complete, but which is capable of direction to new and different results through the mediation of intentional operations.
 
 新中心是在自然过程中发生的模糊的相互作用，它不是固定、完整的，而是可以通过「刻意行为」来导向新的、不同结果的。
 
+```
+但是新的认知中心转移了。
+```
+
+
+
 > What Dewey describes here is the root of the difference between the old and new liberal arts, between specialization in the facts of a subject matter and the use of new disciplines of integrative thinking.
 
-?杜威在这里描述的是旧新博雅学科之间的根本区别，也是在客观事物专业细分和新的综合思维的使用的根本区别?
+杜威在这里描述的是新旧「博雅学科」之间的根本区别。这也是在学科的专业化细分和整合思维的运用之间的根本区别。
+
+```
+specialization 64%的用法是 专门化 这个意思，
+这个根本区别就是说人们对于认识事物的根本观念发生了变化。因为旧的观念中人们还是倾向运用整合思维，但是而这种变化是新旧「博雅」教育的根本差异。
+但是这里出现了一个问题，旧的博雅学科是用了整合的思维，新的博雅学科没有用整合的思维，转而用专业化细分的认知方式，那么这里提到的 the use of new  disciplines 是指什么呢？是指新的这些学科的整合运用吗？那其实说的还是旧博雅学科的思考方式？
+```
 
 > Dewey observes, however, that the meaning and implications of the new direction are still not fully understood.
 
-然而，杜威观察到，新方向的含义和隐喻还没有完全被理解。
+然而，杜威观察到，人们并没有完全被理解这种新方向的含义和隐喻。
 
 > Nowadays we have a messy conjunction of notions that are consistent neither with one another nor with the tenor of our actual life. 
 
-如今，我们脑海中混杂在一起的概念十分混乱，既不彼此一致，也不符合我们实际生活的节奏。
+我们现在脑海中的各种概念混杂在一起，对内既没有统一性，对外也不符合我们实际生活的基调。
+
+```
+conjunction 是 连接 的意思，messy 这个形容词说明连接十分混乱，说明概念混杂在一起。
+
+```
 
 > Knowledge is still regarded by most thinkers as direct grasp of ultimate reality, although the practice of knowing has been assimilated to the procedure of the useful arts; -involving, that is to say, doing that manipulates and arranges natural energies. 
 
-大多数思想家仍然把知识视为终极现实的直接把握，及时在实践认知中也会使用实用艺术的创作程序。换句话说，就是从自然中获得需要的能量。
+大多数思想家仍然认为通过知识可以最直接地理解世界的本质，哪怕实用艺术创作的程序已经开始吸收实践认知了——更确切地说，包括了就是 控制和排列自然能量。
 
-> Again while science is said to lay hold of reality, yet“art” instead of being assigned a lower rank is equally esteemed and honored. 
+```
+grasp 有”抓住，把握“的意思。 ultimate reality 有「至高存在、上帝」的意思。把知识视为上帝的直接把握，可以理解成认为是对世界的本质的认知。
+assimilate 意思是 彻底理解，使吸收。
+在朗文词典中，energies 作为可数名词只有一个意思 the effort and interest that use to do things 
+
+这里说的是思想家们还是局限在理解知识中，但是在使用艺术中开始吸收实践知识，其中包括了操控修改自然能量。
+```
+
+> Again while science is said to lay hold of reality, yet “art” instead of being assigned a lower rank is equally esteemed and honored. 
 
 再次需要被强调的，虽然科学是用来把握现实的，但是“艺术”是被平等看待和尊敬的，而不是当成低一等的东西。
+
+```
+虽说是用来
+lay hold of 意思是 了解、抓住、控制。
+逻辑上可能是虽然科学拿来把握现实很重要，但是艺术也很重要不能够被当成低一等的东西。
+```
 
 > Carrying these observations further, Dewey explores the new relationship between science, art, and practice. 
 >
 
 通过持续进一步观察，杜威探索了科学、艺术和实践之间的新关系。
 
-> He suggests in Experience and Nature that knowledge is no longer achieved by direct conformity of ideas with the fixed orders of nature; knowledge is achieved by a new kind of art directed toward orders of change.
+```
+这里是不是可以把实践理解成未成形的技术呢？
+```
 
-在《经验与自然》中他提到知识不再是由思想与自然规律的直接结合而获得的；知识是由一种新的艺术导向的，它是朝向变化的秩序而实现的。
+> He suggests in *Experience and Nature* that knowledge is no longer achieved by direct conformity of ideas with the fixed orders of nature; knowledge is achieved by a new kind of art directed toward orders of change.
+
+在《经验与自然》中他提到知识不再是通过思想的一些直白套路与固定的自然规律产生。知识是由一种新艺术导向而产生的，它的导向朝向变化的规律。
+
+```
+这种新艺术意味着「不确定性」，意味着变化。而原油的知识则是一堆固定的思想模式和一些固定的自然规律。
+```
 
 > But if modern tendencies are justified in putting art and creation first, then the implications of this position should be avowed and carried through. 
 
-但如果现代倾向有理由把艺术和创造放在第一位，那么这个位置的影响应公开，并且继续贯彻进行。
+但如果现代趋势有理由把艺术和创造放在第一位，那么这个位置含义应该公开，并且继续贯彻进行。
 
 > It would then be seen that science is an art, that art is practice, and that the only distinction worth drawing is not be tween practice and theory, but between those modes of practice that are not intelligent, not inherently and immediately enjoyable, and those which are full of enjoyed meanings. 
 

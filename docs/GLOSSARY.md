@@ -40,15 +40,14 @@
 
 结果，整个知识领域被进一步划分和细分，直到其变成一个一堆细分领域「拼凑」而成的“碎布床单”。
 
-## 主题/学科 subject matters
+## 主题 subject matter
 
-在文章中有很多次提到「subject matters」这个词，为了语句理解通顺，根据语境将其翻译成「主题」或者「学科」。但是根据上下文的语境不同，还需要对这个词有更深一步的理解。主题可能是一类未被规范化的研究领域，而学科则是被规范化了的研究领域。
-比如交互设计是一个细分的学科，但是参数化设计只能算是一个主题。而subject matters这个词在这篇文章里面既有学科的意思，也有主题的意思。
+在文章中有很多次提到「subject matter」这个词，直接翻译是「主题」的意思。但是根据本文的语境不同，还需要对这个词有更深一步的理解，这里应该指代宽泛范的研究领域。比如交互设计在我们的说法中是一个细分的学科，但是在这里也可以理解成是一个主题，而参数化设计算不上一个学科，只能算是一个主题。
 
 > This circle of learning was divided into particular subject matters, each with a proper method or set of methods suitable to its exploration. 
 >
 
-它的学习范围被分成了一些特定的学科，每个学科都有一个或者一套适当的、适合于其探索的方法。
+它的学习范围被分成了一些特定的主题，每个主题都有一个或者一套适当的、适合于其探索的方法。
 
 ##  common problems 一般问题
 
@@ -65,10 +64,7 @@
 >
 > 这种发展表现在逻辑学对抽象概念进行定义，以及描述合理推论的结构的能力大大增加了。一定程度上，罗素为逻辑实证主义运动奠定了基础。他的逻辑学和“逻辑构造”（logical construction）概念扮演了尤为重要的角色。
 >
-> 
->
 > **实证主义**（positivism）是一种以“[实际验证](https://zh.wikipedia.org/w/index.php?title=%E5%AE%9E%E9%99%85%E9%AA%8C%E8%AF%81&action=edit&redlink=1)”为中心的哲学思想。广义而言，任何种类的[哲学](https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%B8)体系，只要求知于经验材料，拒绝、排斥[先验](https://zh.wikipedia.org/wiki/%E5%85%88%E9%A9%97)或[形而上学](https://zh.wikipedia.org/wiki/%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%B8)的思辨，都为实证主义。狭义而言，实证主义则指[法国](https://zh.wikipedia.org/wiki/%E6%B3%95%E5%9C%8B)[哲学家](https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%B8%E5%AE%B6)[孔德](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%AD%94%E5%BE%B7)的哲学，认为对现实之认识只有靠特定科学及对寻常事物的观察才能获得。
 >
 > 实证主义又称实证论，其中心论点是：事实必须是透过观察或感觉经验，去认识每个人身处的客观环境和外在事物。实证论者认为，虽然每个人接受的[教育](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2)不同，但他们用来验证感觉经验的原则，并无太大差异。实证主义的目的，在希望建立[知识](https://zh.wikipedia.org/wiki/%E7%9F%A5%E8%AD%98)的客观性。
 >
-> 
