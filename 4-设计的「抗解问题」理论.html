@@ -1,0 +1,806 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>设计的「抗解问题」理论 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Arvinx">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="5- 设计与技术.html" />
+    
+    
+    <link rel="prev" href="3-设计思维中的置换理论.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    导读
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">章节详解</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="1-Introduction.html">
+            
+                <a href="1-Introduction.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    简介：设计与博雅学科
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="2-Design and Intentional Operations.html">
+            
+                <a href="2-Design and Intentional Operations.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    设计与「刻意行为」
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="3-设计思维中的置换理论.html">
+            
+                <a href="3-设计思维中的置换理论.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    设计思维中的置换理论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.4" data-path="4-设计的「抗解问题」理论.html">
+            
+                <a href="4-设计的「抗解问题」理论.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    设计的「抗解问题」理论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="5- 设计与技术.html">
+            
+                <a href="5- 设计与技术.html">
+            
+                    
+                        <b>2.5.</b>
+                    
+                     设计与技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">全文翻译</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="Article.html">
+            
+                <a href="Article.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    全文翻译
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="GLOSSARY.html">
+            
+                <a href="GLOSSARY.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    词汇/注释术语列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >设计的「抗解问题」理论</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x56DB;&#x3001;the-wicked-problems-theory-of-design-&#x8BBE;&#x8BA1;&#x7684;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7406;&#x8BBA;"><a name="&#x56DB;&#x3001;the-wicked-problems-theory-of-design-&#x8BBE;&#x8BA1;&#x7684;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7406;&#x8BBA;" class="plugin-anchor" href="#&#x56DB;&#x3001;the-wicked-problems-theory-of-design-&#x8BBE;&#x8BA1;&#x7684;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7406;&#x8BBA;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56DB;&#x3001;The Wicked Problems Theory of Design /&#x8BBE;&#x8BA1;&#x7684;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7406;&#x8BBA;</h2>
+<blockquote>
+<p>Recent conferences on design are evidence of a coherent, if not always systematic, effort to reach a clearer understanding of design as an integrative discipline. </p>
+</blockquote>
+<p>&#x4ECE;&#x6700;&#x8FD1;&#x7684;&#x4E00;&#x4E9B;&#x8BBE;&#x8BA1;&#x4F1A;&#x8BAE;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5927;&#x5BB6;&#x4E3A;&#x4E86;&#x66F4;&#x6E05;&#x695A;&#x5730;&#x7406;&#x89E3;&#x8BBE;&#x8BA1;&#x4F5C;&#x4E3A;&#x4E00;&#x95E8;&#x7EFC;&#x5408;&#x6027;&#x5B66;&#x79D1;&#x65F6;&#x7684;&#x5185;&#x6DB5;&#x800C;&#x4ED8;&#x51FA;&#x7684;&#x6301;&#x7EED;&#x52AA;&#x529B;&#x3002;</p>
+<blockquote>
+<p>However, the participants, who increasingly come from diverse professions and academic disciplines, are not drawn together because they share a common definition of design, a common methodology, a common philosophy, or even a common set of objects to which everyone agrees that the term &#x201C;design&#x201D;should be applied.</p>
+</blockquote>
+<p>&#x7136;&#x800C;&#xFF0C;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x6765;&#x81EA;&#x4E0D;&#x540C;&#x884C;&#x4E1A;&#x548C;&#x5B66;&#x79D1;&#x7684;&#x53C2;&#x4E0E;&#x8005;&#x90FD;&#x540C;&#x610F;&#x7528;&#x201C;&#x8BBE;&#x8BA1;&#x201D;&#x8FD9;&#x4E2A;&#x8BCD;&#x3002;&#x5E76;&#x4E0D;&#x662F;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x6709;&#x5171;&#x540C;&#x7684;&#x8BBE;&#x8BA1;&#x5B9A;&#x4E49;&#xFF0C;&#x5171;&#x540C;&#x7684;&#x65B9;&#x6CD5;&#x8BBA;&#xFF0C;&#x5171;&#x540C;&#x7684;&#x54F2;&#x5B66;&#xFF0C;&#x751A;&#x81F3;&#x662F;&#x5171;&#x540C;&#x7684;&#x5BF9;&#x8C61;&#x7FA4;&#xFF0C;</p>
+<blockquote>
+<p> They are drawn together because they share a mutual interest in a common theme: the conception and planning of the artificial. </p>
+</blockquote>
+<p>&#x4ED6;&#x4EEC;&#x805A;&#x96C6;&#x5728;&#x4E00;&#x8D77;&#x662F;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x5BF9;&#x4E00;&#x4E2A;&#x5171;&#x540C;&#x7684;&#x4E3B;&#x9898;&#x6709;&#x5171;&#x540C;&#x7684;&#x5174;&#x8DA3;&#xFF1A;&#x4EBA;&#x5DE5;&#x7684;&#x6982;&#x5FF5;&#x548C;&#x89C4;&#x5212;&#x3002;</p>
+<blockquote>
+<p>Different definitions of design and different specifications of the methodology of design are variations of this broad theme, each a concrete exploration of what is possible in the development of its meanings and implications. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x7684;&#x4E0D;&#x540C;&#x5B9A;&#x4E49;&#x548C;&#x8BBE;&#x8BA1;&#x65B9;&#x6CD5;&#x7684;&#x4E0D;&#x540C;&#x53D9;&#x8FF0;&#x662F;&#x8FD9;&#x4E00;&#x5E7F;&#x6CDB;&#x4E3B;&#x9898;&#x7684;&#x4E3B;&#x8981;&#x53D8;&#x91CF;&#xFF0C;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x53EF;&#x80FD;&#x7684;&#x63A2;&#x7D22;&#x90FD;&#x662F;&#x5BF9;&#x5176;&#x610F;&#x4E49;&#x548C;&#x542B;&#x4E49;&#x7684;&#x53D1;&#x5C55;&#x3002;</p>
+<blockquote>
+<p>Communication is possible at such meetings because the results of research and discussion, despite wide differences in intellectual and practcal perspectives, are always connected by this theme and, therefore, supplemental.</p>
+</blockquote>
+<p>&#x5728;&#x8FD9;&#x4E9B;&#x4F1A;&#x8BAE;&#x4EA4;&#x6D41;&#x662F;&#x53EF;&#x80FD;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x5C3D;&#x7BA1;&#x5728;&#x77E5;&#x8BC6;&#x548C;&#x5B9E;&#x8DF5;&#x65B9;&#x9762;&#x5B58;&#x5728;&#x5DE8;&#x5927;&#x5DEE;&#x5F02;&#xFF0C;&#x4F46;&#x662F;&#x7814;&#x7A76;&#x548C;&#x8BA8;&#x8BBA;&#x7684;&#x7ED3;&#x679C;&#x603B;&#x662F;&#x4EE5;&#x8FD9;&#x4E2A;&#x4E3B;&#x9898;&#x4E92;&#x76F8;&#x8FDE;&#x63A5;&#x548C;&#x8865;&#x5145;&#x3002;</p>
+<blockquote>
+<p> This is only possible, of course, if individuals have the wit to discover what is useful in each other&apos;s work and can cast the material in terms of their own vision of design thinking.</p>
+</blockquote>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x8FD9;&#x662F;&#x53EA;&#x6709;&#x6EE1;&#x8DB3;&#x8FD9;&#x4E2A;&#x6DFB;&#x52A0;&#x624D;&#x662F;&#x53EF;&#x80FD;&#x7684;&#xFF1A;&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x6709;&#x667A;&#x6167;&#x53BB;&#x53D1;&#x73B0;&#x5728;&#x5F7C;&#x6B64;&#x7684;&#x5DE5;&#x4F5C;&#x4E2D;&#x6709;&#x7528;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x4ED6;&#x4EEC;&#x81EA;&#x5DF1;&#x7684;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x6765;&#x91CD;&#x65B0;&#x68B3;&#x7406;&#x6750;&#x6599;&#x3002;</p>
+<pre><code>&#x6240;&#x4EE5;&#x8BF4;&#x591A;&#x770B;&#x770B;&#x522B;&#x7684;&#x4EBA;&#x5B9E;&#x8DF5;&#x4E5F;&#x80FD;&#x591F;&#x53BB;&#x8865;&#x5145;&#x81EA;&#x5DF1;&#x7684;&#x5B9E;&#x8DF5;&#x6848;&#x4F8B;&#xFF0C;&#x7528;&#x6765;&#x589E;&#x52A0;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x6848;&#x4F8B;&#x3002;
+</code></pre><blockquote>
+<p>Members of the scientific community, however, must be puzzled by the types of problems addressed by professional designers and by the patterns of reasoning they employ. </p>
+</blockquote>
+<p>&#x7136;&#x800C;&#xFF0C;&#x79D1;&#x5B66;&#x754C;&#x7684;&#x6210;&#x5458;&#x4E00;&#x5B9A;&#x4F1A;&#x5BF9;&#x4E13;&#x4E1A;&#x8BBE;&#x8BA1;&#x5E08;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x7C7B;&#x578B;&#x548C;&#x4ED6;&#x4EEC;&#x6240;&#x91C7;&#x7528;&#x7684;&#x63A8;&#x7406;&#x6A21;&#x5F0F;&#x611F;&#x5230;&#x56F0;&#x60D1;&#x3002;</p>
+<blockquote>
+<p>While scientists share in the new liberal art of design thinking, they are also masters of specialized subject matters and their related methods, as found in physics, chemistry, biology, mathematics, the social sciences, or one of the many subfields into which these sciences have been divided. </p>
+</blockquote>
+<p>?&#x800C;&#x5728;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x65B0;&#x535A;&#x96C5;&#x6559;&#x80B2;&#x5206;&#x4EAB;&#x7684;&#x79D1;&#x5B66;&#x5BB6;?&#xFF0C;&#x4ED6;&#x4EEC;&#x8FD8;&#x662F;&#x5176;&#x4ED6;&#x76F8;&#x5173;&#x4E13;&#x4E1A;&#x5B66;&#x79D1;&#x53CA;&#x5176;&#x76F8;&#x5173;&#x65B9;&#x6CD5;&#x7684;&#x5927;&#x5E08;&#xFF0C;&#x6BD4;&#x5982;&#x5728;&#x7269;&#x7406;&#x5B66;&#x3001;&#x5316;&#x5B66;&#x3001;&#x751F;&#x7269;&#x5B66;&#x3001;&#x6570;&#x5B66;&#x3001;&#x793E;&#x4F1A;&#x79D1;&#x5B66;&#xFF0C;&#x6216;&#x5176;&#x4E2D;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5B66;&#x79D1;&#x5206;&#x652F;&#x3002;</p>
+<blockquote>
+<p>This creates one of the central problems of communication between scientists and designers, because the problems addressed by designers seldom fall solely within the boundaries of any one of these subject matters.</p>
+</blockquote>
+<p>&#x8FD9;&#x5C31;&#x9020;&#x6210;&#x4E86;&#x79D1;&#x5B66;&#x5BB6;&#x548C;&#x8BBE;&#x8BA1;&#x5E08;&#x4E4B;&#x95F4;&#x4EA4;&#x6D41;&#x7684;&#x4E00;&#x4E2A;&#x4E2D;&#x5FC3;&#x95EE;&#x9898;&#x3002;&#x56E0;&#x4E3A;&#x8BBE;&#x8BA1;&#x8005;&#x6240;&#x8BA8;&#x8BBA;&#x7684;&#x95EE;&#x9898;&#x5F88;&#x5C11;&#x6D89;&#x53CA;&#x8FD9;&#x4E9B;&#x4E3B;&#x9898;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x3002;</p>
+<blockquote>
+<p>The problem of communication between scientists and designers was evident in a special conference on design theory held in New York in 1974. </p>
+</blockquote>
+<p>&#x5728;1974&#x5E74;&#x7EBD;&#x7EA6;&#x4E3E;&#x884C;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x522B;&#x7684;&#x8BA8;&#x8BBA;&#x8BBE;&#x8BA1;&#x7406;&#x8BBA;&#x7684;&#x4F1A;&#x8BAE;&#x4E0A;&#xFF0C;&#x79D1;&#x5B66;&#x5BB6;&#x548C;&#x8BBE;&#x8BA1;&#x5E08;&#x4E4B;&#x95F4;&#x7684;&#x4EA4;&#x6D41;&#x95EE;&#x9898;&#x975E;&#x5E38;&#x660E;&#x663E;&#x3002;</p>
+<blockquote>
+<p>This conference was interesting for several reasons, the most significant directly related to the content of the meeting itself. </p>
+</blockquote>
+<p>&#x8FD9;&#x6B21;&#x4F1A;&#x8BAE;&#x56E0;&#x4E3A;&#x4E00;&#x4E9B;&#x539F;&#x56E0;&#x53D8;&#x5F97;&#x5341;&#x5206;&#x6709;&#x8DA3;&#xFF0C;&#x6700;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x4E2A;&#x539F;&#x56E0;&#x662F;&#x76F4;&#x63A5;&#x5173;&#x7CFB;&#x5230;&#x4F1A;&#x8BAE;&#x672C;&#x8EAB;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<blockquote>
+<p>Reviewed in one of the initial papers, the&#x201C;wicked problems&#x201D; approach to design proved to be one of the central themes to which the participants often returned when seeking a connection between their remarkably diverse and seemingly in commensurate applications of design. </p>
+</blockquote>
+<p>&#x5728;&#x4E00;&#x5F00;&#x59CB;&#x7684;&#x4E00;&#x7BC7;&#x8BBA;&#x6587;&#x4E2D;&#xFF0C;&#x201C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x201D;&#x7684;&#x8BBE;&#x8BA1;&#x65B9;&#x6CD5;&#x88AB;&#x8BC1;&#x660E;&#x4E3A;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x88AB;&#x8BA8;&#x8BBA;&#x7684;&#x6838;&#x5FC3;&#x4E3B;&#x9898;&#xFF0C;&#x56E0;&#x4E3A;&#x4E0E;&#x4F1A;&#x8005;&#x5728;&#x5BFB;&#x627E;&#x4E0D;&#x540C;&#x8BBE;&#x8BA1;&#x6848;&#x4F8B;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x8054;&#x65F6;&#x7ECF;&#x5E38;&#x56DE;&#x5230;&#x8FD9;&#x4E2A;&#x8BDD;&#x9898;&#x4E0A;&#xFF0C;&#x65E0;&#x8BBA;&#x8FD9;&#x4E9B;&#x6848;&#x4F8B;&#x662F;&#x5B58;&#x5728;&#x663E;&#x8457;&#x5DEE;&#x5F02;&#x8FD8;&#x662F;&#x770B;&#x7740;&#x5DEE;&#x4E0D;&#x591A;&#x3002;</p>
+<blockquote>
+<p>Also significant was the dfficulty that most of the participants had in understanding each other. </p>
+</blockquote>
+<p>&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x91CD;&#x8981;&#x7684;&#x539F;&#x56E0;&#x662F;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x7684;&#x4E0E;&#x4F1A;&#x8005;&#x90FD;&#x5F88;&#x96BE;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x5BF9;&#x65B9;&#x3002;</p>
+<blockquote>
+<p>Although an observation of an outsider on the dynamics of the meeting, it is an excellent example of a&#x201C;wicked problem&#x201D;of design thinking.</p>
+</blockquote>
+<p>&#x867D;&#x7136;&#x8FD9;&#x662F;&#x4E00;&#x540D;&#x5C40;&#x5916;&#x4EBA;&#x5BF9;&#x4F1A;&#x8BAE;&#x7684;&#x52A8;&#x6001;&#x7684;&#x89C2;&#x5BDF;&#xFF0C;&#x4F46;&#x8FD9;&#x662F;&#x5173;&#x4E8E;&#x300C;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x4E2D;&#x7684;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7684;&#x4E00;&#x4E2A;&#x5F88;&#x597D;&#x6848;&#x4F8B;&#x3002;</p>
+<blockquote>
+<p>The wicked problems approach was formulated by Horst Rittel in the 1960s, when design methodology was a subject of intense interest. </p>
+</blockquote>
+<p>&#x6297;&#x89E3;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x5728;20&#x4E16;&#x7EAA;60&#x5E74;&#x4EE3;&#x7531; Horst Rittel &#x63D0;&#x51FA;&#x7684;&#xFF0C;&#x5F53;&#x65F6;&#x8BBE;&#x8BA1;&#x65B9;&#x6CD5;&#x7684;&#x7814;&#x7A76;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x70ED;&#x95E8;&#x7684;&#x8BFE;&#x9898;&#x3002;</p>
+<blockquote>
+<p>A mathematician, designer, and former teacher at the Hochschule fuir Gestaltung  (HfG) Ulm, Rittel sought an alternative to the linear, step-by-step model of the design process being explored by many designers and design theorists. </p>
+</blockquote>
+<p>&#x4F5C;&#x4E3A;&#x4E00;&#x540D;&#x6570;&#x5B66;&#x5BB6;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#xFF0C;&#x4E4C;&#x5C14;&#x59C6;&#x9020;&#x578B;&#x5B66;&#x9662;&#x7684;&#x524D;&#x6559;&#x5E08;&#xFF0C;&#x548C;&#x5F88;&#x591A;&#x8BBE;&#x8BA1;&#x5E08;&#x548C;&#x8BBE;&#x8BA1;&#x7406;&#x8BBA;&#x5BB6;&#x63A2;&#x7D22;&#x4F20;&#x7EDF;&#x7EBF;&#x6027;&#x8FC7;&#x7A0B;&#x6A21;&#x578B;&#x7684;&#x601D;&#x8DEF;&#x4E0D;&#x540C;&#xFF0C;Rittel &#x5BFB;&#x6C42;&#x53E6;&#x5916;&#x4E00;&#x7C7B;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</p>
+<blockquote>
+<p>Although there are many variations of the linear model, its proponents hold that thedesign process is divided into two distinct phases: problem defini- tion and problem solution. </p>
+</blockquote>
+<p>&#x867D;&#x7136;&#x6709;&#x8BB8;&#x591A;&#x4E0D;&#x540C;&#x7684;&#x7EBF;&#x6027;&#x6A21;&#x578B;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;&#x652F;&#x6301;&#x8005;&#x90FD;&#x4E00;&#x76F4;&#x8BA4;&#x4E3A;&#xFF1A;&#x8BBE;&#x8BA1;&#x8FC7;&#x7A0B;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x9636;&#x6BB5;&#xFF1A;&#x95EE;&#x9898;&#x7684;&#x5B9A;&#x4E49;&#x548C;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x3002;</p>
+<blockquote>
+<p>Problem definition is an analytic sequence in which the designer determines all of the elements of the problem and specifies all of the requirements that a successful design solution must have. </p>
+</blockquote>
+<p>&#x95EE;&#x9898;&#x5B9A;&#x4E49;&#x662F;&#x4E00;&#x4E2A;&#x5206;&#x6790;&#x8FC7;&#x7A0B;&#xFF0C;&#x8BBE;&#x8BA1;&#x8005;&#x5728;&#x5176;&#x4E2D;&#x786E;&#x5B9A;&#x95EE;&#x9898;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;&#xFF0C;&#x5E76;&#x6307;&#x5B9A;&#x6210;&#x529F;&#x7684;&#x8BBE;&#x8BA1;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x5FC5;&#x987B;&#x5177;&#x5907;&#x7684;&#x6240;&#x6709;&#x9700;&#x6C42;&#x3002;</p>
+<blockquote>
+<p>Problem solution is a synthetic sequence in which the various requirements are combined and balanced against each other, yielding a final plan to be carried into production.</p>
+</blockquote>
+<p>&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x662F;&#x4E00;&#x4E2A;&#x6574;&#x5408;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x5404;&#x79CD;&#x9700;&#x6C42;&#x76F8;&#x4E92;&#x7ED3;&#x5408;&#x5E76;&#x76F8;&#x4E92;&#x5E73;&#x8861;&#xFF0C;&#x4EA7;&#x751F;&#x4E00;&#x4E2A;&#x6700;&#x7EC8;&#x7684;&#x65B9;&#x6848;&#x5E76;&#x8FDB;&#x884C;&#x6267;&#x884C;&#x3002;</p>
+<blockquote>
+<p>In the abstract, such a model may appear attractive because it suggests a methodological precision that is, in its key features, independent from the perspective of the individual designer. </p>
+</blockquote>
+<p>&#x4ECE;&#x7406;&#x8BBA;&#x4E0A;&#x6765;&#x8BF4;&#xFF0C;&#x8FD9;&#x6837;&#x7684;&#x6A21;&#x578B;&#x770B;&#x4E0A;&#x53BB;&#x975E;&#x5E38;&#x6709;&#x5438;&#x5F15;&#x529B;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x5B83;&#x8868;&#x660E;&#x4E86;&#x65B9;&#x6CD5;&#x7684;&#x6709;&#x6548;&#x7A0B;&#x5EA6;&#x548C;&#x8BBE;&#x8BA1;&#x5E08;&#x7684;&#x4E2A;&#x4EBA;&#x8BA4;&#x77E5;&#x65E0;&#x5173;&#xFF0C;&#x8FD9;&#x662F;&#x5B83;&#x975E;&#x5E38;&#x5173;&#x952E;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x5F81;&#x3002;</p>
+<blockquote>
+<p>In fact,many scientists and business professionals, as well as some designers, continue to find the idea of a linear model attractive, believing that it represents the only hope for a&#x201C;logical&#x201D;understanding of the design process. </p>
+</blockquote>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x8BB8;&#x591A;&#x79D1;&#x5B66;&#x5BB6;&#x548C;&#x5546;&#x4E1A;&#x5206;&#x6790;&#x5E08;&#x3001;&#x8BBE;&#x8BA1;&#x5E08;&#x4E00;&#x76F4;&#x80FD;&#x591F;&#x611F;&#x53D7;&#x5230;&#x7EBF;&#x6027;&#x6A21;&#x578B;&#x7684;&#x5438;&#x5F15;&#x529B;&#xFF0C;&#x8BA4;&#x4E3A;&#x8FD9;&#x662F;&#x5BF9;&#x7406;&#x6027;&#x7406;&#x89E3;&#x8BBE;&#x8BA1;&#x8FC7;&#x7A0B;&#x7684;&#x552F;&#x4E00;&#x5E0C;&#x671B;&#x3002;</p>
+<blockquote>
+<p>However, some critics were quick to point out two obvious points of weakness: one, the actual sequence of design thinking and decision making is not a simple linear process; and two, the problems addressed by designers do not, in actual practice, yield to any linear analysis and synthesis yet proposed.</p>
+</blockquote>
+<p>&#x7136;&#x800C;&#xFF0C;&#x4E00;&#x4E9B;&#x6279;&#x8BC4;&#x5BB6;&#x5F88;&#x5FEB;&#x6307;&#x51FA;&#x4E86;&#x4E24;&#x4E2A;&#x660E;&#x663E;&#x7684;&#x5F31;&#x70B9;&#xFF1A;&#x4E00;&#xFF0C;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x548C;&#x51B3;&#x7B56;&#x7684;&#x5B9E;&#x9645;&#x8FC7;&#x7A0B;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x7EBF;&#x6027;&#x8FC7;&#x7A0B;&#xFF1B;&#x4E8C;&#x3001;&#x8BBE;&#x8BA1;&#x8005;&#x6240;&#x63D0;&#x51FA;&#x7684;&#x95EE;&#x9898;&#x5728;&#x5B9E;&#x9645;&#x4E2D;&#x5E76;&#x4E0D;&#x9002;&#x7528;&#x4E8E;&#x4EFB;&#x4F55;&#x4E00;&#x79CD;&#x7EBF;&#x6027;&#x5206;&#x6790;&#x548C;&#x6574;&#x5408;&#x7684;&#x6A21;&#x578B;&#x3002;</p>
+<blockquote>
+<p>Rittel argued that most of the problems addressed by designers are wicked problems. </p>
+</blockquote>
+<p>Rittel&#x8BA4;&#x4E3A;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x7684;&#x8BBE;&#x8BA1;&#x5E08;&#x63D0;&#x51FA;&#x7684;&#x95EE;&#x9898;&#x662F;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x3002;</p>
+<blockquote>
+<p>As described in the first published report of Rittel&apos;s idea, wicked problems are a &quot;class of social system problems which are ill-formulated, where the information is confusing, where there are many clients and decision makers with conflicting values, and where the ramifications in the whole system are thoroughly confusing. &quot;</p>
+</blockquote>
+<p>&#x5728;&#x6700;&#x5F00;&#x59CB;&#x7684;&#x4E00;&#x4E9B;&#x62A5;&#x544A;&#x4E2D;&#xFF0C; Rittel&#x8BA4;&#x4E3A;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x662F;&#x4E00;&#x7C7B;&#x5F88;&#x96BE;&#x88AB;&#x67B6;&#x6784;&#x7684;&#x300C;&#x793E;&#x4F1A;&#x7CFB;&#x7EDF;&#x95EE;&#x9898;&#x300D;&#xFF0C;&#x5176;&#x4E2D;&#x7684;&#x4FE1;&#x606F;&#x662F;&#x6DF7;&#x4E71;&#x7684;&#xFF0C;&#x8BB8;&#x591A;&#x5BA2;&#x6237;&#x548C;&#x51B3;&#x7B56;&#x8005;&#x7684;&#x4EF7;&#x503C;&#x89C2;&#x51B2;&#x7A81;&#xFF0C;&#x6574;&#x4E2A;&#x7CFB;&#x7EDF;&#x7684;&#x7ED3;&#x679C;&#x96BE;&#x4EE5;&#x9884;&#x6599;&#xFF0C;&#x8BA9;&#x4EBA;&#x89C9;&#x5F97;&#x5341;&#x5206;&#x56F0;&#x6270;&#x3002;</p>
+<blockquote>
+<p>This is an amusing description of what confronts designers in every new situation.</p>
+</blockquote>
+<p>&#x8FD9;&#x5728;&#x63CF;&#x8FF0; &#x8BBE;&#x8BA1;&#x5E08;&#x5728;&#x65B0;&#x573A;&#x666F;&#x4E0B;&#x6240;&#x9762;&#x4E34;&#x7684;&#x6311;&#x6218;&#x65F6;&#xFF0C;&#x4F1A;&#x8BA9;&#x4EBA;&#x89C9;&#x5F97;&#x5341;&#x5206;&#x597D;&#x7B11;&#x3002;</p>
+<blockquote>
+<p>But most important, it points toward a fundamental issue that lies behind practice: the relationship between determinacy and indeterminacy in design thinking. </p>
+</blockquote>
+<p>&#x4F46;&#x6700;&#x91CD;&#x8981;&#x7684;&#x662F;&#xFF0C;&#x5B83;&#x6307;&#x5411;&#x4E86;&#x5B9E;&#x8DF5;&#x80CC;&#x540E;&#x7684;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x95EE;&#x9898;&#xFF1A;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x4E2D;&#x7684;&#x786E;&#x5B9A;&#x6027;&#x4E0E;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x3002;</p>
+<blockquote>
+<p>The linear model of design thinking is based on determinate problems which have definite conditions. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x7EBF;&#x6027;&#x6A21;&#x578B;&#x662F;&#x5EFA;&#x7ACB;&#x5728;&#x786E;&#x5B9A;&#x6761;&#x4EF6;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x7684;&#x3002;</p>
+<blockquote>
+<p>The designer&apos;s task is to identify those conditions precisely and then calculate a solution. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x8005;&#x7684;&#x4EFB;&#x52A1;&#x662F;&#x7CBE;&#x786E;&#x8BC6;&#x522B;&#x8FD9;&#x4E9B;&#x6761;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x8BA1;&#x7B97;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</p>
+<blockquote>
+<p>In contrast, the wicked-problems approach suggests that there is a fundamental indeterminacy in all but the most trivial design problems&#x4E00; problems where, as Rittel suggests, the&#x201C;wickedness&#x201D;has already been taken out to yield determinate or analytic problems. </p>
+</blockquote>
+<p>&#x76F8;&#x53CD;&#xFF0C;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x8FD9;&#x79CD;&#x601D;&#x8003;&#x65B9;&#x5F0F;&#x8868;&#x660E;&#xFF0C;&#x5728;&#x666E;&#x904D;&#x7684;&#x8BBE;&#x8BA1;&#x95EE;&#x9898;&#x6709;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x7684;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x3002;&#x800C; Rittel &#x8BA4;&#x4E3A;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x53BB;&#x5206;&#x6790;&#x8FD9;&#x4E9B;&#x95EE;&#x9898;&#x65F6;&#xFF0C;&#x300C;&#x6297;&#x89E3;&#x300D;&#x8FD9;&#x4E2A;&#x7279;&#x6027;&#x4F1A;&#x88AB;&#x6211;&#x4EEC;&#x5FFD;&#x7565;&#x4EE5;&#x4FBF;&#x4E8E;&#x5206;&#x6790;&#x95EE;&#x9898;&#x6216;&#x8FDB;&#x884C;&#x51B3;&#x7B56;&#x3002;</p>
+<blockquote>
+<p>To understand what this means, it is important to recognize that indeterminacy is quite different from undetermined. </p>
+</blockquote>
+<p>&#x8981;&#x7406;&#x89E3;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x4EC0;&#x4E48;&#xFF0C;&#x91CD;&#x8981;&#x7684;&#x662F;&#x8981;&#x8BA4;&#x8BC6;&#x5230;&#x300C;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x300D;&#x4E0E;&#x300C;&#x4E0D;&#x786E;&#x5B9A;&#x300D;&#x662F;&#x5B8C;&#x5168;&#x4E0D;&#x540C;&#x7684;&#x3002;</p>
+<blockquote>
+<p>Indeterminacy implies that there are no definitive conditions or limits to design problems. </p>
+</blockquote>
+<p>&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x610F;&#x5473;&#x7740;&#x8BBE;&#x8BA1;&#x95EE;&#x9898;&#x6CA1;&#x6709;&#x786E;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#x6216;&#x9650;&#x5236;&#x3002;</p>
+<p>This is evident, for example, in the ten properties of wicked problems that Rittel initially identified in 1972.</p>
+<p>&#x8FD9;&#x4E00;&#x70B9;&#x662F;&#x5341;&#x5206;&#x660E;&#x663E;&#x7684;&#x3002;&#x5728;1972&#x5E74; Rittel &#x5C31;&#x521D;&#x6B65;&#x786E;&#x5B9A;&#x4E86;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7684;&#x5341;&#x4E2A;&#x7279;&#x6027;&#x3002;</p>
+<blockquote>
+<p>(1) Wicked problems have no definitive formulation, but every formulation of a wicked problem corresponds to the formulation of a solution.  </p>
+</blockquote>
+<p>&#xFF08;1&#xFF09;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x6CA1;&#x6709;&#x660E;&#x786E;&#x7684;&#x67B6;&#x6784;&#x5B9A;&#x4E49;&#xFF0C;&#x4F46;&#x6BCF;&#x4E00;&#x4E2A;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x90FD;&#x4F1A;&#x6709;&#x5176;&#x9002;&#x7528;&#x7684;&#x89E3;&#x6CD5;&#x6846;&#x67B6;&#x3002;</p>
+<blockquote>
+<p>(2) Wicked problems have no stopping rules.</p>
+</blockquote>
+<p>&#xFF08;2&#xFF09;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x6CA1;&#x6709;&#x505C;&#x6B62;&#x7684;&#x89C4;&#x5219;&#x3002;</p>
+<pre><code>&#x662F;&#x4E0D;&#x662F;&#x610F;&#x5473;&#x7740;&#x5B83;&#x7684;&#x89C4;&#x5219;&#x662F;&#x5728;&#x4E0D;&#x65AD;&#x53D1;&#x5C55;&#x7684;&#xFF1F;
+</code></pre><blockquote>
+<p>  (3) Solutions to wicked problems cannot be true or false,only good or bad.</p>
+</blockquote>
+<p>&#xFF08;3&#xFF09;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x6CA1;&#x6709;&#x5BF9;&#x6216;&#x9519;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x53EA;&#x6709;&#x597D;&#x4E0E;&#x574F;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</p>
+<blockquote>
+<p>(4) In solving wickedproblems there is no exhaustive list of admissible operations.</p>
+</blockquote>
+<p>&#xFF08;4&#xFF09;&#x5728;&#x89E3;&#x51B3;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x65F6;&#x6CA1;&#x6709;&#x8BE6;&#x5C3D;&#x7684;&#x6267;&#x884C;&#x6E05;&#x5355;&#x3002;</p>
+<blockquote>
+<p> (5) For every wicked problem there is always more than one possible explanation, with explanations depending on the Weltanschauung of the designer.</p>
+</blockquote>
+<p>&#xFF08;5&#xFF09;&#x6BCF;&#x4E00;&#x4E2A;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x603B;&#x662F;&#x6709;&#x591A;&#x4E2A;&#x53EF;&#x80FD;&#x7684;&#x89E3;&#x91CA;&#xFF0C;&#x89E3;&#x91CA;&#x5219;&#x5B8C;&#x5168;&#x53D6;&#x51B3;&#x4E8E;&#x8BBE;&#x8BA1;&#x5E08;&#x7684;&#x4E16;&#x754C;&#x89C2;&#x4E0E;&#x4EBA;&#x751F;&#x89C2;&#x3002;</p>
+<pre><code>Weltanschauung identifies the intellectual perspective of the designer as an integral part of the design process.
+Weltanschauung &#x610F;&#x5473;&#x7740; &#x628A; &#x8BBE;&#x8BA1;&#x8005;&#x7684;&#x4E3B;&#x89C2;&#x8BA4;&#x77E5; &#x4F5C;&#x4E3A;&#x8BBE;&#x8BA1;&#x8FC7;&#x7A0B;&#x7684;&#x4E3B;&#x8981;&#x56E0;&#x7D20;&#x3002;
+&#x5373;&#x5B8C;&#x5168;&#x51ED;&#x501F;&#x8BBE;&#x8BA1;&#x5E08;&#x7684;&#x4E3B;&#x89C2;&#x7ECF;&#x9A8C;&#x548C;&#x4E09;&#x89C2;&#x3002;
+</code></pre><blockquote>
+<p> (6) Every wicked problem is a symptom of another &#x201C;higher level &quot; problem. </p>
+</blockquote>
+<p>&#xFF08;6&#xFF09;&#x6BCF;&#x4E00;&#x4E2A;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x90FD;&#x662F;&#x53E6;&#x4E00;&#x4E2A;&#x201C;&#x66F4;&#x9AD8;&#x5C42;&#x6B21;&#x201D;&#x95EE;&#x9898;&#x7684;&#x5F81;&#x5146;&#xFF08;&#x4E00;&#x4E2A;&#x5C40;&#x90E8;&#xFF09;&#x3002;</p>
+<blockquote>
+<p> (7) No formulation and solution of a wicked problem has a definitive test.</p>
+</blockquote>
+<p>&#xFF08;7&#xFF09;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7684;&#x6846;&#x67B6;&#x4E0E;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x90FD;&#x6CA1;&#x6709;&#x4E00;&#x4E2A;&#x660E;&#x786E;&#x7684;&#x6D4B;&#x8BD5;&#x65B9;&#x6CD5;&#x6765;&#x5224;&#x65AD;&#x5BF9;&#x4E0E;&#x9519;&#x3002;</p>
+<blockquote>
+<p> (8) Solving a wickedproblem is a &#x201C;one shot&#x201D; operation,with no room for trial and error.</p>
+</blockquote>
+<p>&#xFF08;8&#xFF09;&#x89E3;&#x51B3;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x662F;&#x4E00;&#x9F13;&#x4F5C;&#x6C14;&#x5F0F;&#x7684;&#xFF0C;&#x5B83;&#x6CA1;&#x6709;&#x8BD5;&#x9A8C;&#x548C;&#x9519;&#x8BEF;&#x7684;&#x7A7A;&#x95F4;&#x3002;</p>
+<blockquote>
+<p> (9) Every wicked problem is unique.</p>
+</blockquote>
+<p>&#xFF08;9&#xFF09;&#x6BCF;&#x4E00;&#x4E2A;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x90FD;&#x662F;&#x72EC;&#x4E00;&#x65E0;&#x4E8C;&#x7684;&#x3002;</p>
+<blockquote>
+<p>(10) The wicked problem solver has no right to be wrong&#x2014;&#x2014;they are fully responsible for their actions.</p>
+</blockquote>
+<p>&#xFF08;10&#xFF09;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x89E3;&#x51B3;&#x8005;&#x6CA1;&#x6709;&#x9519;&#x8BEF;&#x7684;&#x6743;&#x5229;&#x2014;&#x2014;&#x4ED6;&#x4EEC;&#x662F;&#x5BF9;&#x81EA;&#x5DF1;&#x7684;&#x884C;&#x4E3A;&#x5B8C;&#x5168;&#x8D1F;&#x8D23;&#x7684;&#x3002;</p>
+<blockquote>
+<p>This is a remarkable list, and it is tempting to go no further than elaborate the meaning of each property, providing concrete examples drawn from every area of design thinking. </p>
+</blockquote>
+<p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5F15;&#x4EBA;&#x5173;&#x6CE8;&#x7684;&#x7279;&#x6027;&#x6E05;&#x5355;&#x3002;&#x5982;&#x679C;&#x4E3A;&#x4E86;&#x5077;&#x70B9;&#x61D2;&#xFF0C;&#x6216;&#x8BB8;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8FDB;&#x4E00;&#x6B65;&#x9610;&#x8FF0;&#x6BCF;&#x4E00;&#x4E2A;&#x7279;&#x6027;&#x7684;&#x542B;&#x4E49;&#xFF0C;&#x63D0;&#x4F9B;&#x4ECE;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x5404;&#x4E2A;&#x9886;&#x57DF;&#x7684;&#x5177;&#x4F53;&#x4F8B;&#x5B50;&#x6765;&#x9A8C;&#x8BC1;&#x5C31;&#x597D;&#x4E86;&#x3002;</p>
+<blockquote>
+<p>But to do so would leave a fundamental question unanswered.</p>
+</blockquote>
+<p>&#x4F46;&#x8FD9;&#x6837;&#x505A;&#x4F1A;&#x7559;&#x4E0B;&#x4E00;&#x4E2A;&#x6839;&#x672C;&#x6027;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<blockquote>
+<p> Why are design problems indeterminate and, therefore, wicked? </p>
+</blockquote>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x8BBE;&#x8BA1;&#x95EE;&#x9898;&#x662F;&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#xFF0C;&#x4ECE;&#x800C;&#x53D8;&#x6210;&#x300C;&#x6297;&#x89E3;&#x300D;&#x7684;&#xFF1F;</p>
+<blockquote>
+<p>Neither Rittel nor any of those studying wicked problems has attempted to answer this question, so the wicked-problems approach has remained only a description of the social reality of designing rather than the beginnings of a well-grounded theory of design.</p>
+</blockquote>
+<p>Rittel &#x6216;&#x8005;&#x5176;&#x4ED6;&#x4EFB;&#x4F55;&#x7814;&#x7A76;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7684;&#x4EBA;&#x90FD;&#x6CA1;&#x6709;&#x8BD5;&#x56FE;&#x53BB;&#x56DE;&#x7B54;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x6240;&#x4EE5;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x7684;&#x601D;&#x8003;&#x65B9;&#x5F0F;&#x4ECD;&#x7136;&#x53EA;&#x662F;&#x4E00;&#x79CD;&#x5BF9;&#x793E;&#x4F1A;&#x73B0;&#x5B9E;&#x4E2D;&#x8BBE;&#x8BA1;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5BF9;&#x4E00;&#x4E2A;&#x57FA;&#x7840;&#x624E;&#x5B9E;&#x7684;&#x8BBE;&#x8BA1;&#x7406;&#x8BBA;&#x7684;&#x5F00;&#x7AEF;&#x3002;</p>
+<blockquote>
+<p>However, the answer to the question lies in something rarely considered: the peculiar nature of the subject matter of design. </p>
+</blockquote>
+<p>&#x7136;&#x800C;&#xFF0C;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x7684;&#x7B54;&#x6848;&#x5728;&#x4E8E;&#x4E00;&#x4E9B;&#x5F88;&#x5C11;&#x88AB;&#x601D;&#x8003;&#x8FC7;&#x7684;&#x4E1C;&#x897F;&#x4E0A;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x8BBE;&#x8BA1;&#x4E3B;&#x9898;&#x5929;&#x751F;&#x5C31;&#x662F;&#x975E;&#x5E38;&#x7279;&#x6B8A;&#x7684;&#x3002;</p>
+<blockquote>
+<p>Design problems are &#x201C;indeterminate&#x201D; and &#x201C;wicked&#x201D; because design has no special subject matter of its own apart from what a designer conceives it to be.</p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x95EE;&#x9898;&#x662F;&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x3001;&#x300C;&#x6297;&#x89E3;&#x300D;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x662F;&#x8BBE;&#x8BA1;&#x9664;&#x4E86;&#x8BBE;&#x8BA1;&#x5E08;&#x81EA;&#x5DF1;&#x8BBE;&#x60F3;&#x7684;&#x4EE5;&#x5916;&#xFF0C;&#x6CA1;&#x6709;&#x81EA;&#x5DF1;&#x4E13;&#x95E8;&#x7814;&#x7A76;&#x7684;&#x4E3B;&#x9898;&#x3002;</p>
+<blockquote>
+<p> The subject matter of design is potentially universal in scope, because design thinking may be applied to any area of human experience. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x7684;&#x4E3B;&#x9898;&#x5728;&#x5E7F;&#x5EA6;&#x4E0A;&#x53EF;&#x80FD;&#x662F;&#x65E0;&#x7A77;&#x5C3D;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x53EF;&#x4EE5;&#x5E94;&#x7528;&#x4E8E;&#x4EBA;&#x7C7B;&#x7ECF;&#x9A8C;&#x7684;&#x4EFB;&#x4F55;&#x9886;&#x57DF;&#x3002;</p>
+<blockquote>
+<p>But in the process of application, the designer must discover or invent a particular subject out of the problems and issues of specific circumstances. </p>
+</blockquote>
+<p>&#x4F46;&#x5728;&#x5E94;&#x7528;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x8BBE;&#x8BA1;&#x8005;&#x5FC5;&#x987B;&#x4ECE;&#x7279;&#x5B9A;&#x7684;&#x95EE;&#x9898;&#x548C;&#x95EE;&#x9898;&#x4E2D;&#x53D1;&#x73B0;&#x6216;&#x53D1;&#x660E;&#x7279;&#x5B9A;&#x7684;&#x4E3B;&#x9898;&#x3002;</p>
+<blockquote>
+<p>This sharply contrasts with the disciplines of science, which are concerned with understanding the principles, laws, rules, or structures that are necessarily embodied in existing subject matters. </p>
+</blockquote>
+<p>&#x8FD9;&#x4E0E;&#x79D1;&#x5B66;&#x5B66;&#x79D1;&#x5F62;&#x6210;&#x4E86;&#x9C9C;&#x660E;&#x7684;&#x5BF9;&#x6BD4;&#xFF0C;&#x8FD9;&#x4E9B;&#x5B66;&#x79D1;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x5757;&#x4FBF;&#x662F;&#x7406;&#x89E3;&#x5728;&#x5DF2;&#x6709;&#x4E3B;&#x9898;&#x4E2D;&#x5FC5;&#x7136;&#x5B58;&#x5728;&#x7684;&#x539F;&#x5219;&#x3001;&#x89C4;&#x5F8B;&#x6216;&#x7ED3;&#x6784;&#x3002;</p>
+<blockquote>
+<p>Such subject matters are undetermined or under-determined, requiring further investigation to make them more fully determinate. </p>
+</blockquote>
+<p>&#x8FD9;&#x6837;&#x7684;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#x4E5F;&#x8BB8;&#x8FD8;&#x6709;&#x5F85;&#x786E;&#x5B9A;&#xFF0C;&#x4E5F;&#x8BB8;&#x662F;&#x8BC1;&#x636E;&#x4E0D;&#x8DB3;&#xFF0C;&#x9700;&#x8981;&#x8FDB;&#x4E00;&#x6B65;&#x8C03;&#x67E5;&#xFF0C;&#x4F7F;&#x4E4B;&#x66F4;&#x80FD;&#x591F;&#x88AB;&#x5B8C;&#x5168;&#x786E;&#x5B9A;&#x3002;</p>
+<blockquote>
+<p>But they are not radically indeterminate in a way directly comparable to that of design.</p>
+</blockquote>
+<p>&#x4F46;&#x548C;&#x8BBE;&#x8BA1;&#x5B66;&#x79D1;&#x7814;&#x7A76;&#x7684;&#x4E3B;&#x9898;&#x76F8;&#x6BD4;&#xFF0C;&#x5B83;&#x4EEC;&#x5E76;&#x4E0D;&#x662F;&#x6839;&#x672C;&#x4E0A;&#x65E0;&#x6CD5;&#x786E;&#x5B9A;&#x7684;&#x3002;</p>
+<blockquote>
+<p>Designers conceive their subject matter in two ways on two levels: general and particular. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x5E08;&#x5F80;&#x5F80;&#x4ECE;&#x666E;&#x904D;&#x548C;&#x7279;&#x6B8A;&#x8FD9;&#x4E24;&#x4E2A;&#x5C42;&#x9762;&#x6784;&#x601D;&#x4ED6;&#x4EEC;&#x7684;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#x3002;</p>
+<blockquote>
+<p>On a general level, a designer forms an idea or a working hypothesis about the nature of products or the nature of the humanmade in the world. </p>
+</blockquote>
+<p>?&#x5728;&#x666E;&#x904D;&#x8FD9;&#x4E2A;&#x5C42;&#x9762;&#x4E0A;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#x5F62;&#x6210;&#x4E00;&#x4E2A;&#x5173;&#x4E8E;&#x4EA7;&#x54C1;&#x7C7B;&#x578B;&#x6216;&#x4E16;&#x754C;&#x4E0A;&#x4EBA;&#x7C7B;&#x7C7B;&#x578B;&#x7684;&#x60F3;&#x6CD5;&#x6216;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x3002;?</p>
+<blockquote>
+<p>This is the designer&apos;s view of what is meant, for example, by the&#x201C;artificial&#x201D;in relation to the &#x201C;natural.&#x201D;</p>
+</blockquote>
+<p>&#x8FD9;&#x662F;&#x8BBE;&#x8BA1;&#x8005;&#x7684;&#x89C2;&#x70B9;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x201C;&#x4EBA;&#x5DE5;&#x201D;&#x4E0E;&#x201C;&#x81EA;&#x7136;&#x201D;&#x3002;</p>
+<blockquote>
+<p>In this sense, the designer holds a broad view of the nature of design and the proper scope of its application. </p>
+</blockquote>
+<p>&#x5728;&#x8FD9;&#x4E2A;&#x7A0B;&#x5EA6;&#x4E0A;&#x8BF4;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#x5C31;&#x6709;&#x4E86;&#x4E00;&#x4E2A;&#x5BF9;&#x8BBE;&#x8BA1;&#x7684;&#x672C;&#x8D28;&#x53CA;&#x5176;&#x9002;&#x7528;&#x8303;&#x56F4;&#x7684;&#x5927;&#x5C40;&#x89C2;&#x3002;</p>
+<blockquote>
+<p>Indeed, most designers, to the degree that they have reflected on their discipline, will gladly, if not insistently, explain on a general level what the subject matter of design is. </p>
+</blockquote>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x56DE;&#x987E;&#x5927;&#x591A;&#x6570;&#x8BBE;&#x8BA1;&#x5E08;&#x7684;&#x884C;&#x4E3A;&#xFF0C;&#x4ED6;&#x4EEC;&#x4F1A;&#x66F4;&#x4E50;&#x610F;&#x4ECE;&#x6574;&#x4F53;&#x7684;&#x89D2;&#x5EA6;&#x6765;&#x53BB;&#x89E3;&#x91CA;&#x7684;&#x8BBE;&#x8BA1;&#x7684;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x575A;&#x6301;&#x8981;&#x4ED6;&#x4EEC;&#x6DF1;&#x5165;&#x5230;&#x7279;&#x6B8A;&#x5C42;&#x9762;&#x7684;&#x8BDD;&#x3002;</p>
+<blockquote>
+<p>When developed and well presented, these explanations are philosophies or proto-philosophies of design that exist within a plurality of alternative views. </p>
+</blockquote>
+<p>&#x8FD9;&#x4E9B;&#x89E3;&#x91CA;&#x7ECF;&#x8FC7;&#x53D1;&#x5C55;&#x548C;&#x5145;&#x5206;&#x5C55;&#x73B0;&#x540E;&#xFF0C;&#x4F1A;&#x53D8;&#x6210;&#x8BBE;&#x8BA1;&#x7684;&#x54F2;&#x5B66;&#x6216;&#x8005;&#x662F;&#x54F2;&#x5B66;&#x7684;&#x521D;&#x6B65;&#x5F62;&#x6001;&#xFF0C;&#x5B58;&#x5728;&#x4E8E;&#x8BBE;&#x8BA1;&#x7684;&#x8BF8;&#x591A;&#x5B50;&#x9886;&#x57DF;&#x4E2D;&#x3002;</p>
+<pre><code>&#x76F8;&#x5F53;&#x4E8E;&#x62BD;&#x8C61;&#x4E86;&#x8BBE;&#x8BA1;&#x7684;&#x5171;&#x6027;&#xFF1F;
+</code></pre><blockquote>
+<p>They provide an essential framework for each designer to understand and explore the materials, methods, and principles of design thinking. </p>
+</blockquote>
+<p>&#x4ED6;&#x4EEC;&#x4E3A;&#x6BCF;&#x4E00;&#x4F4D;&#x8BBE;&#x8BA1;&#x5E08;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x7684;&#x6846;&#x67B6;&#x6765;&#x7406;&#x89E3;&#x548C;&#x63A2;&#x7D22;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x7269;&#x8D28;&#x3001;&#x65B9;&#x6CD5;&#x548C;&#x539F;&#x5219;&#x3002;</p>
+<blockquote>
+<p>But such philosophies do not and cannot constitute sciences of design in the sense of any natural, social, or humanistic science. </p>
+</blockquote>
+<p>&#x4F46;&#x8FD9;&#x6837;&#x7684;&#x54F2;&#x5B66;&#x5E76;&#x4E0D;&#x80FD;&#x7B49;&#x540C;&#x4E8E;&#x8BBE;&#x8BA1;&#x7684;&#x79D1;&#x5B66;&#xFF0C;&#x4ECE;&#x4EFB;&#x4F55;&#x81EA;&#x7136;&#x3001;&#x793E;&#x4F1A;&#x6216;&#x4EBA;&#x6587;&#x79D1;&#x5B66;&#x7684;&#x90A3;&#x79CD;&#x7A0B;&#x5EA6;&#x6765;&#x8BF4;&#x3002;</p>
+<blockquote>
+<p>The reason for this is simple: design is fundamentally concerned with the particular, and there is no science of the particular.</p>
+</blockquote>
+<p>&#x539F;&#x56E0;&#x5F88;&#x7B80;&#x5355;&#xFF1A;&#x8BBE;&#x8BA1;&#x57FA;&#x672C;&#x4E0A;&#x4E0E;&#x7279;&#x6B8A;&#x6709;&#x5173;&#xFF0C;&#x800C;&#x7279;&#x6B8A;&#x6CA1;&#x6709;&#x79D1;&#x5B66;&#x4E00;&#x8BF4;&#x3002;</p>
+<blockquote>
+<p>In actual practice, the designer begins with what should be called a quasi-subject matter, tenuously existing within the problems and issues of specific circumstances. </p>
+</blockquote>
+<p>&#x5728;&#x5B9E;&#x8DF5;&#x4E2D;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#x4ECE;&#x5E94;&#x8BE5;&#x79F0;&#x4E3A;&#x300C;&#x51C6;&#x4E3B;&#x9898;&#x300D;&#x7684;&#x4E3B;&#x9898;&#xFF08;&#x4ED6;&#x4EEC;&#x4EC5;&#x5B58;&#x5728;&#x4E8E;&#x5177;&#x4F53;&#x60C5;&#x51B5;&#x4E0B;&#x7684;&#x95EE;&#x9898;&#x4E2D;&#xFF09;&#x5F00;&#x59CB;&#xFF0C;</p>
+<blockquote>
+<p>Out of the specific possibilities of a concrete situation, the designer must conceive a design that will lead to this or that particular product. </p>
+</blockquote>
+<p>&#x51FA;&#x4E8E;&#x5177;&#x4F53;&#x60C5;&#x51B5;&#x7684;&#x7279;&#x5B9A;&#x7684;&#x53EF;&#x80FD;&#x6027;&#xFF0C;&#x8BBE;&#x8BA1;&#x8005;&#x5FC5;&#x987B;&#x6784;&#x601D;&#x51FA;&#x4E00;&#x79CD;&#x8BBE;&#x8BA1;&#xFF0C;&#x5F15;&#x5BFC;&#x51FA;&#x67D0;&#x79CD;&#x7279;&#x5B9A;&#x7684;&#x4EA7;&#x54C1;&#x3002;</p>
+<blockquote>
+<p>A quasi-subject matter is not an undetermined subject waiting to be made determinate. </p>
+</blockquote>
+<p>&#x300C;&#x51C6;&#x4E3B;&#x9898;&#x300D;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x51C6;&#x5907;&#x88AB;&#x786E;&#x5B9A;&#x7684;&#x5F85;&#x786E;&#x5B9A;&#x7684;&#x4E3B;&#x9898;&#x3002;</p>
+<pre><code>&#x5C31;&#x662F;&#x8BF4;&#x300C;&#x51C6;&#x5BF9;&#x8C61;&#x300D;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x4ECE;0&#x586B;&#x5145;&#x5230;100&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x662F;&#x9700;&#x8981;&#x53BB;&#x786E;&#x5B9A;&#x5E94;&#x8BE5;&#x662F;&#x4ECE;0&#x5230;1&#xFF0C;&#x8FD8;&#x662F;&#x4ECE;0&#x5230;100&#xFF0C;&#x8FD8;&#x662F;&#x8BF4;&#x4ECE;0&#x5230;-100&#x7684;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;&#x9700;&#x8981;&#x53BB;&#x67B6;&#x6784;&#x5B83;&#x7684;&#x6846;&#x67B6;&#xFF0C;&#x7136;&#x540E;&#x624D;&#x662F;&#x586B;&#x5145;&#x5185;&#x5BB9;&#x7684;&#x8FC7;&#x7A0B;&#x3002;
+</code></pre><blockquote>
+<p>It is an indeterminate subject waiting to be made specific and concrete.</p>
+</blockquote>
+<p>&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x4E0D;&#x786E;&#x5B9A;&#x7684;&#x4E3B;&#x9898;&#xFF0C;&#x9700;&#x8981;&#x88AB;&#x7279;&#x6B8A;&#x5316;&#x548C;&#x5177;&#x4F53;&#x5316;&#x3002;</p>
+<blockquote>
+<p>For example, a client&apos;s brief does not present a definition of the subject matter of a particular design application. </p>
+</blockquote>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x5BA2;&#x6237;&#x673A;&#x7684;&#x9700;&#x6C42;&#x8BF4;&#x660E;&#x5F80;&#x5F80;&#x6CA1;&#x6709;&#x7ED9;&#x51FA;&#x5177;&#x4F53;&#x7684;&#x8BBE;&#x8BA1;&#x4E3B;&#x9898;&#x7684;&#x5B9A;&#x4E49;&#x6216;&#x8005;&#x7279;&#x5B9A;&#x7684;&#x8BBE;&#x8BA1;&#x5E94;&#x7528;&#x3002;</p>
+<blockquote>
+<p>It presents a problem and a set of issues to be considered in resolving that problem.</p>
+</blockquote>
+<p>&#x5B83;&#x63D0;&#x51FA;&#x4E86;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x548C;&#x5728;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x65F6;&#x8981;&#x8003;&#x8651;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x95EE;&#x9898;&#x3002;</p>
+<blockquote>
+<p> In situations where a brief specifies in great detail the particular features of the product to be planned, it otten does so because an owner, corporate executive, or manager has attempted to perform the critical task of transforming problems and issues into a working hypothesis about the particular features of the product to be designed. </p>
+</blockquote>
+<p>&#x4F46;&#x662F;&#x5728;&#x67D0;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6982;&#x8981;&#x4F1A;&#x975E;&#x5E38;&#x8BE6;&#x7EC6;&#x5730;&#x6307;&#x5B9A;&#x8981;&#x8BA1;&#x5212;&#x4E2D;&#x7684;&#x4EA7;&#x54C1;&#x7684;&#x7279;&#x5B9A;&#x7279;&#x6027;&#x3002;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x5F80;&#x5F80;&#x662F;&#x56E0;&#x4E3A;&#x8001;&#x677F;&#xFF0C;&#x4F01;&#x4E1A;&#x9AD8;&#x7BA1;&#xFF0C;&#x6216;&#x7ECF;&#x7406;&#x8BD5;&#x56FE;&#x5B8C;&#x6210;&#x5173;&#x952E;&#x4EFB;&#x52A1;&#x3002;&#x8FD9;&#x4E2A;&#x5173;&#x952E;&#x4EFB;&#x52A1;&#x662F;&#x628A;&#x95EE;&#x9898;&#x548C;&#x9650;&#x5236;&#x6761;&#x4EF6;&#x8F6C;&#x5316;&#x6210;&#x4EA7;&#x54C1;&#x5177;&#x4F53;&#x529F;&#x80FD;&#x7279;&#x6027;&#x7684;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x3002;</p>
+<blockquote>
+<p>In effect, someone has attempted to take the&#x201C;wickedness&#x201D;out. </p>
+</blockquote>
+<p>&#x4E8B;&#x5B9E;&#x4E0A;&#xFF0C;&#x6709;&#x4EBA;&#x8BD5;&#x56FE;&#x628A;&#x300C;&#x6297;&#x89E3;&#x6027;&#x300D;&#x6392;&#x9664;&#x6389;&#x3002;</p>
+<blockquote>
+<p>Even in this situation, however, the conception of particular features remains only a possibility that may be subject to change through discussion and argument. &quot;</p>
+</blockquote>
+<p>&#x7136;&#x800C;&#xFF0C;&#x5373;&#x4F7F;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x7279;&#x5B9A;&#x7279;&#x5F81;&#x7684;&#x6982;&#x5FF5;&#x53EF;&#x80FD;&#x901A;&#x8FC7;&#x8BA8;&#x8BBA;&#x548C;&#x8BBA;&#x8BC1;&#x800C;&#x88AB;&#x6539;&#x53D8;&#x3002;</p>
+<blockquote>
+<p>This is where placements take on special significance as tools of design thinking. </p>
+</blockquote>
+<p>&#x8FD9;&#x5C31;&#x662F;&#x300C;&#x7F6E;&#x6362;&#x300D;&#x4F5C;&#x4E3A;&#x4E00;&#x79CD;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x5DE5;&#x5177;&#x6240;&#x5177;&#x6709;&#x7684;&#x7279;&#x6B8A;&#x610F;&#x4E49;&#x3002;</p>
+<blockquote>
+<p>They allow the designer to position and reposition the problems and issues at hand.</p>
+</blockquote>
+<p>&#x4ED6;&#x4EEC;&#x5141;&#x8BB8;&#x8BBE;&#x8BA1;&#x5E08;&#x5BF9;&#x624B;&#x5934;&#x7684;&#x95EE;&#x9898;&#x548C;&#x9650;&#x5236;&#x6761;&#x4EF6;&#x8FDB;&#x884C;&#x5B9A;&#x4F4D;&#x548C;&#x91CD;&#x5B9A;&#x4F4D;&#x3002;</p>
+<blockquote>
+<p> Placements are the tools by which a designer intuitively or deliberately shapes a design situation, identifying the views of all participants, the issues which concern them, and the invention that will serve as a working hypothes is for exploration and development. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x5E08;&#x6709;&#x610F;&#x8BC6;&#x6216;&#x65E0;&#x610F;&#x8BC6;&#x5730;&#x7528;&#x300C;&#x7F6E;&#x6362;&#x300D;&#x5DE5;&#x5177;&#x5851;&#x9020;&#x660E;&#x786E;&#x7684;&#x8BBE;&#x8BA1;&#x573A;&#x666F;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x4E2D;&#x786E;&#x5B9A;&#x6240;&#x6709;&#x53C2;&#x4E0E;&#x8005;&#x7684;&#x770B;&#x6CD5;&#x3001;&#x4ED6;&#x4EEC;&#x5173;&#x6CE8;&#x95EE;&#x9898;&#x4EE5;&#x53CA;&#x8BBE;&#x8BA1;&#x5E08;&#x81EA;&#x5DF1;&#x5FC3;&#x4E2D;&#x7528;&#x4E8E;&#x63A2;&#x7D22;&#x548C;&#x53D1;&#x5C55;&#x7684;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x3002;</p>
+<pre><code>invention &#x6709;&#x201C;&#x5185;&#x5FC3;&#x634F;&#x9020;&#x7684;&#x4E1C;&#x897F;&#x201D;&#x8FD9;&#x4E2A;&#x610F;&#x601D;&#x3002;
+</code></pre><blockquote>
+<p>In this sense, the placements selected by a designer are the same as what determinate subject matters are for the scientist. </p>
+</blockquote>
+<p>&#x5728;&#x8FD9;&#x4E2A;&#x610F;&#x4E49;&#x4E0A;&#xFF0C;&#x8BBE;&#x8BA1;&#x8005;&#x4F7F;&#x7528;&#x7684;&#x300C;&#x7F6E;&#x6362;&#x300D;&#x5DE5;&#x5177;&#x548C;&#x79D1;&#x5B66;&#x5BB6;&#x7814;&#x7A76;&#x7684;&#x4E3B;&#x9898;&#x6240;&#x7528;&#x7684;&#x5DE5;&#x5177;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<blockquote>
+<p>They are the quasi-subject matter of design thinking, from which the designer fashions a working hypothesis suited to special circumstances.</p>
+</blockquote>
+<p>&#x5B83;&#x4EEC;&#x662F;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x300C;&#x51C6;&#x4E3B;&#x9898;&#x300D;&#xFF0C;&#x901A;&#x8FC7;&#x4ED6;&#x4EEC;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#x5F97;&#x51FA;&#x9002;&#x5408;&#x7279;&#x6B8A;&#x60C5;&#x51B5;&#x7684;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x3002;</p>
+<blockquote>
+<p>This helps to explain how design functions as an integrative discipline. </p>
+</blockquote>
+<p>&#x8FD9;&#x6709;&#x52A9;&#x4E8E;&#x89E3;&#x91CA;&#x4F5C;&#x4E3A;&#x4E00;&#x95E8;&#x7EFC;&#x5408;&#x6027;&#x5B66;&#x79D1;&#xFF0C;&#x8BBE;&#x8BA1;&#x662F;&#x5982;&#x4F55;&#x8FD0;&#x8DB3;&#x7684;&#x3002;</p>
+<blockquote>
+<p>By using placements to discover or invent a working hypothesis, the designer establishes a principle of relevance for knowledge from the arts and sciences, determining how such knowledge may be useful to design thinking in a particular circumstance without immediately reducing design to one or another of these disciplines. </p>
+</blockquote>
+<p>&#x901A;&#x8FC7;&#x4F7F;&#x7528;&#x300C;&#x7F6E;&#x6362;&#x300D;&#x6765;&#x53D1;&#x73B0;&#x6216;&#x521B;&#x9020;&#x4E00;&#x4E2A;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#xFF0C;&#x8BBE;&#x8BA1;&#x5E08;&#x5EFA;&#x7ACB;&#x4E86;&#x4E00;&#x4E2A;&#x4E0E;&#x79D1;&#x5B66;&#x827A;&#x672F;&#x6709;&#x5173;&#x7684;&#x77E5;&#x8BC6;&#x7684;&#x539F;&#x5219;&#xFF0C;&#x786E;&#x5B9A;&#x8FD9;&#x79CD;&#x77E5;&#x8BC6;&#x5728;&#x7279;&#x5B9A;&#x73AF;&#x5883;&#x4E0B;&#x5BF9;&#x4E8E;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x6709;&#x591A;&#x5927;&#x4F5C;&#x7528;&#xFF0C;&#x800C;&#x4E0D;&#x5FC5;&#x9A6C;&#x4E0A;&#x5C06;&#x8BBE;&#x8BA1;&#x5C40;&#x9650;&#x5230;&#x5176;&#x4E2D;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5B66;&#x79D1;&#x4E2D;&#x3002;</p>
+<blockquote>
+<p>In effect, the working hypothesis that will lead to a particular product is the principle of relevance, guiding the efforts of designers to gather all available knowledge bearing on how a product is finally planned.</p>
+</blockquote>
+<p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x6307;&#x5411;&#x7279;&#x5B9A;&#x4EA7;&#x54C1;&#x7684;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x662F;&#x4E00;&#x79CD;&#x300C;&#x76F8;&#x5173;&#x6027;&#x539F;&#x5219;&#x300D;&#xFF0C;&#x7528;&#x6237;&#x6307;&#x5BFC;&#x8BBE;&#x8BA1;&#x5E08;&#x53BB;&#x6536;&#x96C6;&#x6240;&#x6709;&#x53EF;&#x7528;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x8FD9;&#x4E9B;&#x77E5;&#x8BC6;&#x63CF;&#x8FF0;&#x4E86;&#x4EA7;&#x54C1;&#x6700;&#x7EC8;&#x5E94;&#x8BE5;&#x662F;&#x5982;&#x4F55;&#x88AB;&#x89C4;&#x5212;&#x7684;&#x3002;</p>
+<blockquote>
+<p>But does the designer&apos;s working hypothesis or principle of relevance suggest that the product itself is a determinate subject matter?</p>
+</blockquote>
+<p>&#x4F46;&#x662F;&#x8BBE;&#x8BA1;&#x5E08;&#x7684;&#x300C;&#x57FA;&#x7840;&#x5047;&#x8BBE;&#x300D;&#x6216;&#x300C;&#x76F8;&#x5173;&#x6027;&#x539F;&#x5219;&#x300D;&#x662F;&#x5426;&#x8868;&#x660E;&#x4EA7;&#x54C1;&#x672C;&#x8EAB;&#x662F;&#x4E00;&#x4E2A;&#x786E;&#x5B9A;&#x7684;&#x4E3B;&#x9898;&#x5462;&#xFF1F;</p>
+<blockquote>
+<p>The answer involves a critical but often blurred distinction between design thinking and the activity of production or making. </p>
+</blockquote>
+<p>&#x7B54;&#x6848;&#x6D89;&#x53CA;&#x5230;&#x4E00;&#x4E2A;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x548C;&#x751F;&#x4EA7;&#x6216;&#x5236;&#x9020;&#x6D3B;&#x52A8;&#x4E4B;&#x95F4;&#x7684;&#x533A;&#x522B;&#xFF0C;&#x8FD9;&#x4E2A;&#x533A;&#x522B;&#x975E;&#x5E38;&#x5173;&#x952E;&#x4F46;&#x5F80;&#x5F80;&#x88AB;&#x6A21;&#x7CCA;&#x6389;&#x3002;</p>
+<blockquote>
+<p>Once a product is conceived, planned, and produced, it may indeed become an object for study by any of the arts and sciences--history, economics, psychology, sociology, or anthropology. </p>
+</blockquote>
+<p>&#x4E00;&#x65E6;&#x4EA7;&#x54C1;&#x88AB;&#x6784;&#x601D;&#x3001;&#x8BA1;&#x5212;&#x548C;&#x751F;&#x4EA7;&#xFF0C;&#x5B83;&#x5C31;&#x53EF;&#x80FD;&#x6210;&#x4E3A;&#x4EFB;&#x4F55;&#x4E00;&#x95E8;&#x79D1;&#x5B66;&#x827A;&#x672F;&#xFF08;&#x5386;&#x53F2;&#x3001;&#x7ECF;&#x6D4E;&#x5B66;&#x3001;&#x5FC3;&#x7406;&#x5B66;&#x3001;&#x793E;&#x4F1A;&#x5B66;&#x6216;&#x4EBA;&#x7C7B;&#x5B66;&#x7B49;&#xFF09;&#x7684;&#x7814;&#x7A76;&#x5BF9;&#x8C61;&#x3002;</p>
+<blockquote>
+<p>It may even become an object for study by a new humanistic science of production that we could call the &#x201C;science of the artificial&#x201D;, directed toward undertanding the nature, form, and uses of humanmade products in all of their generic kinds. </p>
+</blockquote>
+<p>&#x5B83;&#x751A;&#x81F3;&#x53EF;&#x80FD;&#x6210;&#x4E3A;&#x65B0;&#x7684;&#x4EBA;&#x672C;&#x4E3B;&#x4E49;&#x751F;&#x4EA7;&#x79D1;&#x5B66;&#xFF08;&#x6211;&#x4EEC;&#x4E0D;&#x59A8;&#x79F0;&#x5B83;&#x4E3A;&#x300C;&#x4EBA;&#x9020;&#x79D1;&#x5B66;&#x300D;&#xFF09;&#x7684;&#x7814;&#x7A76;&#x5BF9;&#x8C61;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x89C2;&#x7406;&#x89E3;&#x5404;&#x79CD;&#x4EBA;&#x9020;&#x7269;&#x7684;&#x6027;&#x8D28;&#x3001;&#x5F62;&#x6001;&#x3001;&#x548C;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x3002;</p>
+<blockquote>
+<p>But in all such studies, the activities of design thinking are easily forgotten or are reduced to the kind of product that is finally produced. </p>
+</blockquote>
+<p>&#x4F46;&#x5728;&#x6240;&#x6709;&#x8FD9;&#x4E9B;&#x7814;&#x7A76;&#x4E2D;&#xFF0C;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x6D3B;&#x52A8;&#x5F88;&#x5BB9;&#x6613;&#x88AB;&#x9057;&#x5FD8;&#xFF0C;&#x6216;&#x8005;&#x88AB;&#x7B80;&#x5316;&#x4E3A;&#x6700;&#x7EC8;&#x4EA7;&#x751F;&#x7684;&#x4EA7;&#x54C1;&#x3002;</p>
+<blockquote>
+<p>The problem for designers is to conceive and plan what does not yet exist, and this occurs in the context of the indeterminacy of wicked problems, before the final result is known.</p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x5E08;&#x9762;&#x4E34;&#x7684;&#x95EE;&#x9898;&#x662F;&#x5728;&#x77E5;&#x9053;&#x7ED3;&#x679C;&#x4E4B;&#x524D;&#x5C31;&#x53BB;&#x8BBE;&#x60F3;&#x548C;&#x8BA1;&#x5212;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x4E1C;&#x897F;&#x3002;&#x800C;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x5F80;&#x5F80;&#x662F;&#x5728;&#x9762;&#x5BF9;&#x300C;&#x6297;&#x89E3;&#x95EE;&#x9898;&#x300D;&#x8FD9;&#x79CD;&#x5B58;&#x5728;&#x300C;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x300D;&#x8FD9;&#x6837;&#x80CC;&#x666F;&#x4E0B;&#x53D1;&#x751F;&#x7684;&#x3002;</p>
+<blockquote>
+<p>This is the creative or inventive activity that Herbert Simon has in mind when he speaks of design as a science of the artificial. </p>
+</blockquote>
+<p>&#x8FD9;&#x662F;&#x5E0C;&#x5C14;&#x4F2F;&#x7279;&#xB7;&#x897F;&#x8499; &#x5728;&#x8C08;&#x5230;&#x8BBE;&#x8BA1;&#x4F5C;&#x4E3A;&#x4E00;&#x95E8;&#x300C;&#x4EBA;&#x9020;&#x79D1;&#x5B66;&#x300D;&#x65F6;&#xFF0C;&#x4ED6;&#x6240;&#x8003;&#x8651;&#x7684;&#x521B;&#x9020;&#x6027;&#x6216;&#x53D1;&#x660E;&#x6027;&#x7684;&#x6D3B;&#x52A8;&#x3002;</p>
+<blockquote>
+<p>What he means is &#x201C;devising artifacts to attain goals&#x201D;  or, more broadly&#xFF0C;&#x201C;doctrine about the design process&#x201D;.</p>
+</blockquote>
+<p>&#x4ED6;&#x7684;&#x610F;&#x601D;&#x5C31;&#x662F;&#x201C;&#x8BBE;&#x8BA1;&#x4EBA;&#x9020;&#x7269;&#x6765;&#x5B9E;&#x73B0;&#x76EE;&#x6807;&#x201D;&#xFF0C;&#x6216;&#x8005;&#x66F4;&#x5E7F;&#x6CDB;&#x5730;&#x8BF4;&#xFF0C;&#x201C;&#x5173;&#x4E8E;&#x8BBE;&#x8BA1;&#x8FC7;&#x7A0B;&#x7684;&#x7406;&#x8BBA;&#x201D;&#x3002;</p>
+<blockquote>
+<p>In this sense, Simon&apos;s science of the artificial is perhaps closer to what Dewey means by technology as a systematic discipline of experimental thinking. </p>
+</blockquote>
+<p>&#xFF1F;&#x4ECE;&#x8FD9;&#x4E2A;&#x610F;&#x4E49;&#x4E0A;&#x8BF4;&#xFF0C;&#x897F;&#x8499;&#x7684;&#x300C;&#x4EBA;&#x9020;&#x79D1;&#x5B66;&#x300D;&#x6216;&#x8BB8;&#x66F4;&#x63A5;&#x8FD1;&#x4E8E;&#x675C;&#x5A01;&#x6240;&#x8BF4;&#x7684;&#x4E00;&#x79CD;&#x5B9E;&#x9A8C;&#x601D;&#x7EF4;&#x4E0B;&#x7684;&#x7CFB;&#x7EDF;&#x5B66;&#x79D1;&#x3002;&#xFF1F;</p>
+<pre><code>&#x771F;&#x7684;&#x4E0D;&#x77E5;&#x9053;&#x5565;&#x610F;&#x601D;&#x989D;&#x3002;
+</code></pre><blockquote>
+<p>However, Simon has little to say about the difference between designing a product and making it. </p>
+</blockquote>
+<p>&#x4F46;&#x662F;&#xFF0C;&#x897F;&#x8499;&#x5BF9;&#x4E8E;&#x8BBE;&#x8BA1;&#x548C;&#x5236;&#x9020;&#x4E4B;&#x95F4;&#x7684;&#x533A;&#x522B;&#x8BA8;&#x8BBA;&#x5F97;&#x5E76;&#x4E0D;&#x591A;&#x3002;</p>
+<blockquote>
+<p>Consequently, the &#x201C;search&#x201D; procedures and decision-making protocols that he proposes for design are largely analytic, shaped by his philosophic view of the determinacies that follow from the natural laws that surround artifacts.</p>
+</blockquote>
+<p>&#x56E0;&#x6B64;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x4ED6;&#x4E3A;&#x8BBE;&#x8BA1;&#x63D0;&#x51FA;&#x7684;&#x201C;&#x641C;&#x7D22;&#x201D;&#x7A0B;&#x5E8F;&#x548C;&#x51B3;&#x7B56;&#x65B9;&#x6848;&#x4E3B;&#x8981;&#x662F;&#x5206;&#x6790;&#x578B;&#x7684;&#x3002;&#x8FD9;&#x4E9B;&#x6765;&#x81EA;&#x4E8E;&#x4ED6;&#x5BF9;&#x786E;&#x5B9A;&#x6027;&#x2014;&#x2014;&#x5373;&#x9075;&#x5FAA;&#x4EBA;&#x9020;&#x7269;&#x4E2D;&#x7684;&#x6CD5;&#x5219;&#x3001;&#x89C4;&#x5219;&#x3001;&#x7ED3;&#x6784;&#x2014;&#x2014;&#x7684;&#x54F2;&#x5B66;&#x601D;&#x8003;&#x3002;</p>
+<blockquote>
+<p>For all of the insight Simon has in distinguishing the artificial as a domain of humanmade products different from objects created by natural processes, he does not capture the radical sense in which designers explore the essence of what the artificial may be in human experlence. </p>
+</blockquote>
+<p>&#x56E0;&#x4E3A;&#x897F;&#x8499;&#x628A;&#x6240;&#x6709;&#x7684;&#x6D1E;&#x5BDF;&#x529B;&#x90FD;&#x653E;&#x5728;&#x4E86;&#x533A;&#x5206;&#x300C;&#x4EBA;&#x9020;&#x300D;&#x662F;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x4EBA;&#x9020;&#x7269;&#x7684;&#x9886;&#x57DF;&#x8FD8;&#x662F;&#x901A;&#x8FC7;&#x81EA;&#x7136;&#x8FC7;&#x7A0B;&#x521B;&#x5EFA;&#x7269;&#x4F53;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E0A;&#xFF0C;&#x6240;&#x4EE5;&#x4ED6;&#x6CA1;&#x6709;&#x6355;&#x6349;&#x5230;&#x8FD9;&#x4E2A;&#x6FC0;&#x8FDB;&#x7684;&#x573A;&#x666F;&#xFF1A;&#x8BBE;&#x8BA1;&#x5E08;&#x4EEC;&#x5728;&#x4EBA;&#x7C7B;&#x7ECF;&#x9A8C;&#x4E2D;&#x63A2;&#x7D22;&#x7684;&#x300C;&#x4EBA;&#x9020;&#x300D;&#x662F;&#x4EC0;&#x4E48;&#x7684;&#x672C;&#x8D28;&#x3002;</p>
+<blockquote>
+<p>This is a synthetic activity related to indeterminacy, not an activity of making what is undetermined in natural laws more determinate in artifacts. </p>
+</blockquote>
+<p>&#x8FD9;&#x662F;&#x4E00;&#x79CD;&#x4E0E;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x6709;&#x5173;&#x7684;&#x6574;&#x5408;&#x6D3B;&#x52A8;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5728;&#x6839;&#x672C;&#x89C4;&#x5219;&#x4E0B;&#x8BA9;&#x4EBA;&#x9020;&#x7269;&#x7684;&#x672A;&#x786E;&#x5B9A;&#x6027;&#x53D8;&#x5F97;&#x66F4;&#x4E3A;&#x786E;&#x5B9A;&#x7684;&#x6D3B;&#x52A8;&#x3002;</p>
+<blockquote>
+<p>In short, Simon appears to have conflated two sciences of the artificial : an inventive science of design thinking which has no subject matter aside from what the designer conceives it to be, and a science of existing humanmade products whose nature Simon happens to believe is a manipulation of material and behavioral laws of nature.</p>
+</blockquote>
+<p>&#x603B;&#x4E4B;&#xFF0C;&#x897F;&#x8499;&#x4F3C;&#x4E4E;&#x628A;&#x4E24;&#x7C7B;&#x79D1;&#x5B66;&#x5408;&#x5E76;&#x5728;&#x4E86;&#x4E00;&#x8D77;&#xFF1A;&#x4E00;&#x7C7B;&#x662F;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x7684;&#x53D1;&#x660E;&#x79D1;&#x5B66;&#xFF0C;&#x8FD9;&#x4E00;&#x7C7B;&#x79D1;&#x5B66;&#x9664;&#x4E86;&#x8BBE;&#x8BA1;&#x5E08;&#x8BBE;&#x60F3;&#x7684;&#x4EE5;&#x5916;&#x6CA1;&#x6709;&#x5176;&#x4ED6;&#x4EFB;&#x4F55;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#x3002;&#x53E6;&#x4E00;&#x7C7B;&#x5219;&#x662F;&#x5173;&#x4E8E;&#x4EBA;&#x9020;&#x7269;&#x7684;&#x79D1;&#x5B66;&#xFF0C;&#x5176;&#x672C;&#x8D28;&#x897F;&#x8499;&#xFF1F;&#x78B0;&#x5DE7;&#xFF1F;&#x8BA4;&#x4E3A;&#x662F;&#x5BF9;&#x7269;&#x8D28;&#x4E0E;&#x884C;&#x4E3A;&#x89C4;&#x5F8B;&#x7684;&#x63A7;&#x5236;&#x3002; </p>
+<pre><code>&#x540E;&#x534A;&#x6BB5;&#x8BDD;&#x771F;&#x662F;&#x65E0;&#x6BD4;&#x6666;&#x6DA9;&#x96BE;&#x61C2;
+</code></pre><blockquote>
+<p>Design is a remarkably supple discipline, amenable to radically different interpretations in philosophy as well as in practice. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x662F;&#x4E00;&#x95E8;&#x975E;&#x5E38;&#x7075;&#x6D3B;&#x7684;&#x5B66;&#x79D1;&#xFF0C;&#x53EF;&#x4EE5;&#x4ECE;&#x54F2;&#x5B66;&#x548C;&#x5B9E;&#x8DF5;&#x4E2D;&#x5F97;&#x5230;&#x5B8C;&#x5168;&#x4E0D;&#x540C;&#x7684;&#x89E3;&#x91CA;&#x3002;</p>
+<blockquote>
+<p>But the flexibility of design often leads to popular misunderstanding and clouds efforts to understand its nature. </p>
+</blockquote>
+<p>&#x4F46;&#x662F;&#x8BBE;&#x8BA1;&#x7684;&#x7075;&#x6D3B;&#x6027;&#x5E38;&#x5E38;&#x4F1A;&#x5F15;&#x8D77;&#x4EBA;&#x4EEC;&#x7684;&#x666E;&#x904D;&#x8BEF;&#x89E3;&#x548C;&#x7406;&#x89E3;&#x5176;&#x672C;&#x8D28;&#x7684;&#x300C;&#x4E91;&#x300D;&#x822C;&#x7684;&#x52AA;&#x529B;&#x3002;</p>
+<blockquote>
+<p>The history of design is not merely a history of objects. </p>
+</blockquote>
+<p>&#x8BBE;&#x8BA1;&#x7684;&#x5386;&#x53F2;&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x5386;&#x53F2;&#x3002;</p>
+<blockquote>
+<p>It is a history of the changing views of subject matter held by designers and the concrete objects conceived, planned, and produced as expressions of those views. </p>
+</blockquote>
+<p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x8BBE;&#x8BA1;&#x5E08;&#x4EEC;&#x53CD;&#x590D;&#x5207;&#x6362;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#x89C6;&#x89D2;&#x7684;&#x5386;&#x53F2;&#xFF0C;&#x5177;&#x4F53;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x601D;&#x3001;&#x8BA1;&#x5212;&#x548C;&#x751F;&#x4EA7;&#x90FD;&#x662F;&#x8FD9;&#x4E9B;&#x89C2;&#x70B9;&#x7684;&#x8868;&#x8FBE;&#x3002;</p>
+<blockquote>
+<p>One could gofurther and say that the history of design history is a record of the design historians&apos; views regarding what they conceive to be the subject matter of design.</p>
+</blockquote>
+<p>&#x53EF;&#x4EE5;&#x8FDB;&#x4E00;&#x6B65;&#x8BF4;&#xFF0C;&#x8BBE;&#x8BA1;&#x53F2;&#x7684;&#x5386;&#x53F2;&#x662F;&#x8BB0;&#x5F55;&#x8BBE;&#x8BA1;&#x53F2;&#x5B66;&#x5BB6;&#x4EEC;&#x628A;&#x4EC0;&#x4E48;&#x5F53;&#x6210;&#x4E3B;&#x8981;&#x8BBE;&#x8BA1;&#x4E3B;&#x9898;&#x7684;&#x5386;&#x53F2;&#x3002;</p>
+<p>We have been slow to recognize the peculiar indeterminacy of subject matter in design and its impact on the nature of design thinking. </p>
+<p>&#x6211;&#x4EEC;&#x82B1;&#x4E86;&#x5F88;&#x4E45;&#x65F6;&#x95F4;&#x624D;&#x8BA4;&#x8BC6;&#x5230;&#x8BBE;&#x8BA1;&#x4E2D;&#x7684;&#x4E3B;&#x9898;&#x7684;&#x7279;&#x6B8A;&#x7684;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#xFF0C;&#x53CA;&#x5176;&#x5BF9;&#x8BBE;&#x8BA1;&#x601D;&#x7EF4;&#x672C;&#x8D28;&#x7684;&#x5F71;&#x54CD;&#x3002;</p>
+<p>As a consequence, each of the sciences that have come into contact with design has tended to regard design as an &#x2018;applied&quot; version of its own knowledge, methods, and principles. </p>
+<p>&#xFF1F;&#x56E0;&#x6B64;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x63A5;&#x89E6;&#x5230;&#x8BBE;&#x8BA1;&#x7684;&#x79D1;&#x5B66;&#x90FD;&#x503E;&#x5411;&#x4E8E;&#x628A;&#x8BBE;&#x8BA1;&#x770B;&#x4F5C;&#x662F;&#x81EA;&#x5DF1;&#x77E5;&#x8BC6;&#x3001;&#x65B9;&#x6CD5;&#x548C;&#x539F;&#x5219;&#x7684;&#x201C;&#x5E94;&#x7528;&#x201D;&#x7248;&#x672C;&#x3002;&#xFF1F;</p>
+<p>They see in design an instance of their own subject matter and treat design as a practical demonstration of the scientific principles of that subject matter. </p>
+<p>&#x4ED6;&#x4EEC;&#x5728;&#x8BBE;&#x8BA1;&#x4E2D;&#x770B;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x7814;&#x7A76;&#x4E3B;&#x9898;&#x7684;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#xFF0C;&#x5E76;&#x628A;&#x8BBE;&#x8BA1;&#x4F5C;&#x4E3A;&#x4E00;&#x79CD;&#x5173;&#x4E8E;&#x8BE5;&#x4E3B;&#x9898;&#x7684;&#x79D1;&#x5B66;&#x539F;&#x5219;&#x7684;&#x663E;&#x793A;&#x5448;&#x73B0;&#x3002;</p>
+<p>Thus, we have the odd, recurring situation in which design is alternately regarded as&#x201C;applied&quot; natural science&#xFF0C;&#x201C;applied&#x201D; social science, or&#x201C;applied&#x201D;fine art. </p>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x6211;&#x4EEC;&#x6709;&#x4E00;&#x79CD;&#x5947;&#x602A;&#x7684;&#x3001;&#x53CD;&#x590D;&#x51FA;&#x73B0;&#x7684;&#x60C5;&#x5F62;&#xFF0C;&#x5373;&#x8BBE;&#x8BA1;&#x88AB;&#x89C6;&#x4E3A;&#x201C;&#x5E94;&#x7528;&#x201D;&#x81EA;&#x7136;&#x79D1;&#x5B66;&#x3001;&#x5E94;&#x7528;&#x793E;&#x4F1A;&#x79D1;&#x5B66;&#x6216;&#x5E94;&#x7528;&#x7F8E;&#x672F;&#x3002;</p>
+<p>No wonder designers and members of the scientific community often have difficulty communicating.</p>
+<p>&#x96BE;&#x602A;&#x8BBE;&#x8BA1;&#x5E08;&#x548C;&#x79D1;&#x5B66;&#x754C;&#x7684;&#x6210;&#x5458;&#x7ECF;&#x5E38;&#x6C9F;&#x901A;&#x56F0;&#x96BE;&#x3002; </p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; ArvinX all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2017-12-04 05:01:26
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="3-设计思维中的置换理论.html" class="navigation navigation-prev " aria-label="Previous page: 设计思维中的置换理论">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="5- 设计与技术.html" class="navigation navigation-next " aria-label="Next page:  设计与技术">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"设计的「抗解问题」理论","level":"2.4","depth":1,"next":{"title":" 设计与技术","level":"2.5","depth":1,"path":"5- 设计与技术.md","ref":"5- 设计与技术.md","articles":[]},"previous":{"title":"设计思维中的置换理论","level":"2.3","depth":1,"path":"3-设计思维中的置换理论.md","ref":"3-设计思维中的置换理论.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","-highlight","github","expandable-chapters-small","splitter","-sharing","sharing-plus","local-pagefooter","ga","anchors","livereload"],"root":"./docs","styles":{"website":"styles/website.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"arvinx"},"github":{"url":"https://github.com/arvinxx"},"livereload":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"local-pagefooter":{"copyright":"Copyright &copy ArvinX","islocal":true,"modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"expandable-chapters-small":{},"ga":{"configuration":"auto","token":"UA-110579858-1"},"sharing":{"qq":true,"all":["facebook","google","twitter","instapaper","pocket"],"douban":false,"facebook":false,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":true,"viber":false,"stumbleupon":false,"qzone":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{}},"theme":"default","author":"Arvinx","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"4-设计的「抗解问题」理论.md","mtime":"2017-12-03T21:01:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-04T21:11:52.476Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
