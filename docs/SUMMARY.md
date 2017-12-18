@@ -11,7 +11,7 @@
 
   * [简介：设计与博雅学科](1-Introduction.md)
 
-  * [设计与「策划的活动」](2-Design and Intentional Operations.md)
+  * [设计与「目的性活动」](2-Design and Intentional Operations.md)
 
   * [设计思维中的置换理论](3-设计思维中的置换理论.md)
 

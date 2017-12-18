@@ -69,9 +69,9 @@
 > 实证主义又称实证论，其中心论点是：事实必须是透过观察或感觉经验，去认识每个人身处的客观环境和外在事物。实证论者认为，虽然每个人接受的[教育](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2)不同，但他们用来验证感觉经验的原则，并无太大差异。实证主义的目的，在希望建立[知识](https://zh.wikipedia.org/wiki/%E7%9F%A5%E8%AD%98)的客观性。
 >
 
-## intentional operations 策划的活动
+## intentional operations 目的性活动
 
 intentional 应该是「策划的」、「蓄意的」的意思。
 operations 作为复数，在可数名词中只有「企业」和「（有目的）的活动、行动」这个两个含义，那么显然应该是后者。
 
-因此 intentional operations 的意思则应该是 「经过策划的活动」。计划活动
+因此 intentional operations 的意思则应该是 「经过策划的活动」。
