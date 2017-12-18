@@ -13,7 +13,7 @@
 
   * [设计与「目的性活动」](2-Design and Intentional Operations.md)
 
-  * [设计思维中的置换理论](3-设计思维中的置换理论.md)
+  * [定位理论](3-The Doctrine of Placements.md)
 
   * [设计的「抗解问题」理论](4-设计的「抗解问题」理论.md)
 

@@ -1,4 +1,4 @@
-# The Doctrine of Placements 定位学说
+# The Doctrine of Placements 定位理论
 
 > By “liberal art” I mean a discipline of thinking that may be shared to some degree by all men and women in their daily lives and is,in turn, mastered by a few people who practice the discipline with distinctive insight and sometimes advance it to new areas of innovative application. 
 
@@ -10,7 +10,7 @@
 
 > One may reasonably disagree with aspects of Simon's positivist and empiricist view of design as a science  (as one may disagree with the pragmatic principles that stand behind Dewey's observation of the importance of intentional operations in modern culture), but there is little reason to disagree with the idea that all men and women may benefit from an early understanding of the disciplines of design in the contemporary world. 
 
-有人可能会不同意西蒙从实证主义和经验主义方面把设计作为一门科学的观点。因为有人可能会不同意实用主义原则。而正是这个原则支撑了杜威观察的结果—— 「目的性活动」在现代文化中举足轻重。但是我们几乎没有理由反对所有人都可能从目前的设计学科的初步认识中受益。
+有人可能会不同意西蒙从实证主义和经验主义方面把设计作为一门科学的观点。因为杜威观察到的「『目的性活动』在现代文化中的重要性」建立在实用主义的原则纸上，而那些人可能对这些原则并不感冒 。但是我们几乎没有理由反对所有人都可能从目前的设计学科的初步认识中受益。
 
 ```
 初步认识是什么？西蒙提出的那个么？
@@ -34,7 +34,11 @@
 
 > The area of communications design is rapidly evolving into a broad exploration of the problems of communicating information, ideas, and arguments through a new synthesis of words and images that is transforming the “bookish culture” of the past.
 
-传达设计正迅速发展成为一个新的宽广的研究领域。通过融合语言和图像的一个新的手段（电子传媒），来探讨传达设计中的信息、思想和争论的问题。而这种手段正在转变过去「用书传达」的文化。
+传达设计正迅速发展成一个宽泛的研究领域，通过融合语言和图像的新手段来探讨传达设计中的信息、思想和争论的问题。而这种手段正在转变过去「用书传达」的文化。
+
+```
+电子传媒这种手段
+```
 
 > The second area is the design of material objects. 
 
@@ -93,10 +97,8 @@
 正确地理解和使用的方法应该是，它们也是所有设计师共享的发明的领域，人们在这些领域下通过重新思考问题和方案来发现设计思维的不同维度。
 
 ```
-这里开始就有点超出个人能力范围了。
+
 ```
-
-
 
 > True, these four areas point toward certain kinds of objectivity in human experience, and the work of designers in each of these areas has created a framework for human experience in contemporary culture. 
 
@@ -354,7 +356,7 @@ Recently, however, a new approach in graphic design thinking has begun to questi
 
 > Understanding the difference between a category and a placement is essential if design thinking is to be regarded as more than a series of creative accidents. 
 
-如果设计思维被认为是一系列创造性以外，那么理解「分类」和「置换」之间的区别是很重要的。
+如果设计思维被认为是一系列创造性以外，那么理解「分类」和「定位」之间的区别是很重要的。
 
 > Categories have fixed meanings that are accepted within the framework of a theory or a philosophy, and serve as the basis for analyzing what already exists. 
 
@@ -366,15 +368,15 @@ Recently, however, a new approach in graphic design thinking has begun to questi
 
 > Placements have boundaries to shape and constrain meaning, but are not rigidly fixed and determinate. 
 
-「置换」有塑造边界和限制意义，但不是固定不变的。
+「定位」有塑造边界和限制意义，但不是固定不变的。
 
 ```
-突然理解Placements是什么了。这是一种变换方法。就像 CG 领域里面有置换贴图一样，这里意味着空间位置的变换。在 Fixed 的类别下应用置换，就可以获得新的场景的感知。那么下面那段话就能说得通了。
+突然理解Placements是什么了。这是一种变换方法。就像 CG 领域里面有定位贴图一样，这里意味着空间位置的变换。在 Fixed 的类别下应用定位，就可以获得新的场景的感知。那么下面那段话就能说得通了。
 ```
 
 > The boundary of a placement gives a context or orientation to thinking, but the application to a specific situation can generate a new perception of that situation and ,hence, a new possibility to be tested. 
 
-「置换」的边界给思考提供了一个情景和方向，但是应用到一个特定的情境可以产生对这种情况的新的感知，因此，就会产生一种新的可以去测试的可能性。
+「定位」的边界给思考提供了一个情景和方向，但是应用到一个特定的情境可以产生对这种情况的新的感知，因此，就会产生一种新的可以去测试的可能性。
 
 ```
 在直观感受上就是可能看问题的视角进行了特殊的变换。
@@ -385,11 +387,11 @@ Recently, however, a new approach in graphic design thinking has begun to questi
 
 > Therefore, placements are sources of new ideas and possibilities when applied to problems in concrete circumstances.
 
-因此，当应用于具体情况的问题时，「置换」是新点子和可能性的来源。
+因此，当应用于具体情况的问题时，「定位」是新点子和可能性的来源。
 
 > As an ordered or systematic approach to the invention of possibilities, the doctrine of placements provides a useful means of understanding what many designers describe as the intuitive or serendipitous quality of their work. 
 
-?作为一个有序的或可能的发明的系统方法，「置换」原则提供了一个有用的方法来理解许多设计师描述的他们直觉的或偶然的工作质量。?
+?作为一个有序的或可能的发明的系统方法，「定位」原则提供了一个有用的方法来理解许多设计师描述的他们直觉的或偶然的工作质量。?
 
 ```
 那这个原则在哪有呢？如果有可以描述的话，那么就有可能规范化，和 Ai 化了。
@@ -397,7 +399,7 @@ Recently, however, a new approach in graphic design thinking has begun to questi
 
 > Individual designers often possess a personal set of placements, developed and tested by experience. 
 
-个人设计师通常拥有一套个人的置换方法集，通过经验来发展和测试。
+个人设计师通常拥有一套个人的定位方法集，通过经验来发展和测试。
 
 ```
 24) Some placements have become so common in twentieth-century design that they hardly attract attention.
@@ -413,18 +415,18 @@ With different intent, Ezio Manzini recently argued that the designer needs two 
 
 > The inventiveness of the designer lies in a natural or cultivated and artful ability to return to those placements and apply them to a new situation, discovering aspects of the situation that affect the final design. 
 
-设计师的创造性在于利用一种自然的、文化性的、巧妙的能力来得到一些「置换」的方法，并将这些方法应用到一种新的情境中，从而发现影响最终设计的情况的各个方面。
+设计师的创造性在于利用一种自然的、文化性的、巧妙的能力来得到一些「定位」的方法，并将这些方法应用到一种新的情境中，从而发现影响最终设计的情况的各个方面。
 
 > What is regarded as the designer's style, then, is sometimes more than just a personal preference for certain types of visual forms, materials, or techniques; it is a characteristic way of seeing possibilities through conceptual placements. 
 
-那什么是设计师的风格呢？很多时候，这不是一种视觉形式、材料或者技术的个人偏好；而是一种通过特定「置换」后看到设计可能性的独特方式。
+那什么是设计师的风格呢？很多时候，这不是一种视觉形式、材料或者技术的个人偏好；而是一种通过特定「定位」后看到设计可能性的独特方式。
 
 > However, when a designer's conceptual placements become categories of thinking, the result can be mannered imitations of an earlier invention that are no longer relevant to the discovery of specific possibilities in a new situation.
 
-然而，当设计师的概念「置换」法成为思考的类别时，那结果可能是对早期创造物的矫饰模仿，而这种新发明不再与新情况下特定可能性的发现相关。
+然而，当设计师的概念「定位」法成为思考的类别时，那结果可能是对早期创造物的矫饰模仿，而这种新发明不再与新情况下特定可能性的发现相关。
 
 ```
-说人话可能就是，当你用的「置换」方法变得循规蹈矩时，那么最后得到的结果可能就是没什么新意的，而且可能并没有和具体场景能够产生关联性。
+说人话可能就是，当你用的「定位」方法变得循规蹈矩时，那么最后得到的结果可能就是没什么新意的，而且可能并没有和具体场景能够产生关联性。
 ```
 
 > Ideas are then forced onto a situation rather than discovered in the particularities and novel possibilities of that situation.
@@ -433,7 +435,7 @@ With different intent, Ezio Manzini recently argued that the designer needs two 
 
 > For the practicing designer, placements are primary and categories are secondary. 
 
-对于在工作的设计师来说，「置换」是主要的方法，「分类」是次级的方法。
+对于在工作的设计师来说，「定位」是主要的方法，「分类」是次级的方法。
 
 > The reverse holds true for design history, theory, and criticism, except at those moments when a new direction for inquiry is opened. 
 
@@ -441,7 +443,7 @@ With different intent, Ezio Manzini recently argued that the designer needs two 
 
 > At such times, a repositioning of the problems of design, such as a change in the subject matter to be addressed, the methods to be employed, or the principles to be explored, occurs by means of placements. 
 
-在这种情况下，设计问题的重定位，例如将要变化解决的主题的位置、采用的方法、或要探索的原则，都应该要通过「置换」的方法来实现。
+在这种情况下，设计问题的重定位，例如将要变化解决的主题的位置、采用的方法、或要探索的原则，都应该要通过「定位」的方法来实现。
 
 > Then, history, theory, or criticism are “redesigned” for the individual investigator and sometimes for groups of investigators. 
 
@@ -456,30 +458,28 @@ With different intent, Ezio Manzini recently argued that the designer needs two 
 由于设计研究的学科增加了设计历史、理论和批评的反思和哲学层面，正向的因果结果是可能的。
 
 ```
-卧槽，到这边就一脸懵逼了，没有可以去理解的案例额。
+
 ```
 
 > Historians, for example, may reconsider the placement of design history as it has been practiced throughout most of the twentieth century and work to discover other innovative possibilities.
 
-例如，历史学家可能会重新考虑设计历史的「置换」方法，因为它在二十世纪的大部分时间里都被实践过，并致力于发现其他创新的可能性。
+例如，历史学家可能会重新考虑设计历史的「定位」方法，因为它在二十世纪的大部分时间里都被实践过，并致力于发现其他创新的可能性。
 
 > Discontent with the results of current design history suggests that new repositionings are called for if the discipline is to retain vitality and relevance to contemporary problems. "
 
 对目前的设计历史的结果不满的人认为，如果设计学科要保持活力和与当代问题的相关性，那么我们必须对设计历史做一次新的重定位。
 
-
-
 > The doctrine of placements will require further development if it is to be recognized as a tool in design studies and design thinking, but it can also be a surprisingly precise way of addressing conceptual space and the non-dimensional images from which concrete possibilities emerge for testing in objective circumstances.
 
-「置换理论」将需要进一步发展，如果它要被认为是设计研究和设计思维的工具，但它也可以是解决概念空间和无量纲图像的一种令人惊讶的精确方法，?从具体的可能性出现在客观情况下进行测试。?
+「定位理论」将需要进一步发展，如果它要被认为是设计研究和设计思维的工具，但它也可以是解决概念空间和无量纲图像的一种令人惊讶的精确方法，?从具体的可能性出现在客观情况下进行测试。?
 
 > The natural and spontaneous use of placements by designers is already evident; an explicit understanding of the doctrine of placements will make it an important element of design as a liberal art.
 
-设计师自然地、自发地使用「置换」是十分很明显的；对「置换理论」的透彻理解将使它成为博雅学科中的一个重要元素。
+设计师自然地、自发地使用「定位」是十分很明显的；对「定位理论」的透彻理解将使它成为博雅学科中的一个重要元素。
 
 > All men and women require a liberal art of design to live well in the complexity of the framework based in signs, things, actions, and thoughts.
 
-为了在符号、实体、行为和思想复杂框架下更好地地生活，每个人都应该接受设计的博雅学科。
+为了在符号、实体、行为和思想这个复杂框架下更好地地生活，每个人都应该接受设计的博雅学科。
 
 > On one hand, such an art will enable individuals to participate more directly in this framework and contribute to its development. 
 
@@ -487,9 +487,9 @@ With different intent, Ezio Manzini recently argued that the designer needs two 
 
 > On the other, professional designers could be regarded as masters in its exploration.
 
-另一方面，专业设计师可以被视为探索的大师。
+另一方面，专业设计师可以被视为在探索该领域的大师。
 
 > The ability of designers to discover new relationships among signs, things, actions, and thoughts is one indication that design is not merely a technical specialization but a new liberal art.
 
-设计师探索符号、实体、行为和思想之间的新关系的能力象征着设计不仅仅是一门高度专业化的职业，更是一种博雅学科。
+设计师探索符号、实体、行为和思想之间的新关系的能力象征着设计不仅仅是一门高度专业化的职业，更是一门新的博雅学科。
 
