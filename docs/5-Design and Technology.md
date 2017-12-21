@@ -1,12 +1,16 @@
-# 五、Design and Technology 设计与技术
+# Design and Technology 设计与技术
 
 > Many problems remain to be explored in establishing design as a liberal art of technological culture. 
 
-如果把设计建设成一门科技文化下的博雅教育，还有许多问题有待探索。
+如果把设计建设成一门科技文化下的博雅学科，还有许多问题有待探索。
 
 > But as it continues to unfold in the work of individual designers and in reflection on the nature of their work, design is slowly restoring the richer meaning of the term“technology” that was all but lost with the rise of the Industrial Revolution. 
 
-？但随着它继续在个人设计师的作品中展开，在对他们工作本质的反思中，设计正在慢慢恢复“技术”这个术语的丰富含义。（曾经工业革命的兴起使设计失去了「技术」的意义。）？
+但随着它逐渐在个人设计师的作品和反思中出现，设计正在慢慢恢复“技术”这个术语的丰富含义。（曾经工业革命的兴起使设计失去了「技术」的意义。）
+
+```
+这里是不是因为包豪斯的关系导致设计变成了「装饰」或者单纯的「外观」的问题？
+```
 
 > Most people continue to think of technology in terms of its product rather than its form as a discipline of systematic thinking. 
 
@@ -14,41 +18,53 @@
 
 > They regard technology as things and machines, observing with concern that the machines of our culture often appear out of human control, threatening to trap and enslave rather than liberate. 
 
-他们把技术视为实体和机器，观察到我们的机器经常出现在超出人类的控制，有奴役人类的威胁，而不是解放。
+他们把技术视为实体和机器，往往看到机器经常不受人类的控制，甚至想着机器有可能奴役而不是解放人类。
 
 > But there was a time in an earlier period of Western culture when technology was a human activity operating throughout the liberal arts.
 
-但在早期的西方文化中，有一段时间科技是一种贯穿整个博雅教育的人类活动。
+但在早期的西方文化中，有一段时间技术是一种贯穿整个博雅学科的人类活动。
 
 > Every liberal art had its own technologia or systematic discipline.
 
-每一类博雅教育都有它自己的工学或系统的学科。
+每一类博雅学科都有它自己的工学或系统的学科。
 
 >  To possess that technology or discipline of thinking was to possess the liberal art, to be human, and to be free in seeking one's place in the world.
 
-拥有这种技术或思维的学科，就是拥有博雅教育，成为人，在世界上自由地生活。
+拥有这种技术或这种学科的思维是通往博雅学科，成为世界上自由人的关键。
+
+```
+这种人的特点可能就是「靠谱」、「能力强」。
+```
 
 > Design also has a technologia, and it is manifested in the plan for every new product. 
 
-设计也有工学，它体现在计划的每一个新产品上。
+设计也有工学，它体现在每一个新产品的计划与规划上。
 
 > The plan is an argument, reflecting the deliberations of designers and their efforts to integrate knowledge in new ways, suited to specific circumstances and needs. 
 
-这种计划是一个论据，反映了设计师的思考以及他们努力以新的方式去整合知识来适应特定的情况和需要。
+这种计划反映了设计师的思考以及他们努力以新的方式去整合知识来适应特定的情况和需要。
 
 > In this sense, design is emerging as a new discipline of practical reasoning and argumentation, directed by individual designers toward one or another on its major thematic varlations in the twentieth century: design as communication, construction, strategic planning or systemic integration. 
 
-从这个意义上说，设计是一种新兴的实践推理和论证的新学科，由设计师向一个或另一个在二十世纪主要专题动态：设计沟通、建设、战略规划、系统整合。
+从这个意义上说，设计是一种新兴的实践推理和论证的新学科，由设计师们引导着二十世纪的几个主要设计课题——传达、构造、战略规划、系统整合。
 
-由设计师向一个或另一个在二十世纪主要专题动态：设计沟通、建设、战略规划、系统整合。
+```
+应该是指视觉传达、产品设计、设计管理、服务设计的这几个大的课题。
+但是比较奇怪的是为什么没有讲到交互设计呢？
+```
 
 > The power of design as deliberation and argument lies in overcoming the limitations of mere verbal or symbolic argument ——the separation of words and things, or theory and practice that remains a source of disruption and confusion in contemporary culture. 
 
-？设计作为思考和论证的力量在于克服仅仅是口头或象征性的论点的局限性——在当代文化中仍然是混乱和混乱的根源的词语和事物、理论或实践的分离。？
+设计作为思考和论证的力量在于克服仅仅是语言或符号的观念上的局限性。在当代文化中词和物、理论与实践的分离仍然是造成混乱的根源。
+
+```
+简单来说应该就是乱用词。没有限定术语，框定概念。
+因此导致人与人之间的概念上出现差异。因此导致混乱。
+```
 
 > Argument in design thinking moves toward the concrete interplay and interconnection of signs, things,actions, and thoughts. 
 
-设计思维中的论点朝着符号、实物、行为和思想的具体相互作用和相互联系的方向发展。
+设计思维中的主题朝着符号、实物、行为和思想的具体相互作用和相互联系的方向发展。
 
 > Every designer's sketch, blueprint, flow chart, graph, three-dimensional model, or other product proposal is an example of such argumentation.
 
@@ -70,25 +86,27 @@
 
 由于在思考设计问题这些不同情景，这三种运用设计思维最重要的职业通常被视为在设计企业的激烈的对手，彼此远远不可调和。
 
-What design as a liberal art contributes to this situation is a new awareness of how argument is the central theme that cuts across the many technical methodologies employed in each design profession. 
+> What design as a liberal art contributes to this situation is a new awareness of how argument is the central theme that cuts across the many technical methodologies employed in each design profession. 
+>
 
-在这种情况下，作为一门博雅教育能够帮助人们意识到中心论点是如何贯穿于设计行业使用的许多技术方法的。
-
-Differences of modality may be complementary ways of arguing-reciprocal expressions of what conditions and shapes the“useful”in human experience. 
-
-模式的差异可能是互补的方式来论证什么样的条件和形状在人类经验中的“有用”。
+在这种情况下，作为一门博雅学科能够帮助人们意识到中心论点是如何贯穿于设计行业使用的许多技术方法的。
 
 ```
 这个也有感觉，就是你用了同样的基本思维，然后套在不同的场景下，然后得出对应的一个结论。
 ```
 
+> Differences of modality may be complementary ways of arguing-reciprocal expressions of what conditions and shapes the “useful” in human experience. 
+>
+
+不同的模式可能互相补充地论证在人类经验中到底什么场景和规划才是“有用” 。
+
 > As a liberal art of technological culture, design points toward a new attitude about the appearance of products. 
 
-作为一种技术文化的博雅教育，设计指向了一种新的关于产品表象的态度。
+作为一种技术文化的博雅学科，设计指向了一种新的关于产品现象的看法。
 
 > Appearance must carry a deeper, integrative argument about the nature of the artificial in human experience. 
 
-外表必须对人类经验中人造物的本质进行更深入、更全面的论证。
+这种现象必须对人类经验中人造物的本质进行更深入、更全面的论证。
 
 > This argument is a synthesis of three lines of reasoning: the ideas of designers and manufacturers about their products; the internal operational logic of products; and the desire and ability of human beings to use products in everyday life in ways that reflect personal and social values. 
 
@@ -104,7 +122,7 @@ Differences of modality may be complementary ways of arguing-reciprocal expressi
 
 > The new liberal art of design thinking is turning to the modality of impossibility. 
 
-设计思维的新博雅教育转向不可能性形态。
+设计思维的新博雅学科正转向「不可能性」的形式。
 
 > It points, for example, toward the impossibility of rigid boundaries between industrial design, engineering, and marketing.
 
@@ -120,7 +138,7 @@ Differences of modality may be complementary ways of arguing-reciprocal expressi
 
 > This is not thinking directed toward a technological “quick fix” in hardware but toward new integrations of signs, things, actions, and environments that address the concrete needs and values of human being s in diverse circumstances.
 
-这不是一种 面向硬件的技术“快速修复” 思维，而是面向一种整合符号、产品，行为、环境来解决不同环境下人的具体需要和价值的思维。
+这不是一种面向硬件的技术“快速修复” 思维，而是面向一种整合符号、产品，行为、环境来解决不同环境下人的具体需要和价值的思维。
 
 > Individuals trained in the traditional arts and sciences may continue to be puzzled by the neoteric art of design. 
 
@@ -128,8 +146,9 @@ Differences of modality may be complementary ways of arguing-reciprocal expressi
 
 > But the masters of this new liberal art are practical men and women, and the discipline of thinking that they employ is gradually becoming accessible to all individuals in everyday life. 
 
-但是，这种新博雅教育的主人们是讲求实践的人们，他们所采用的思维方式正逐渐被日常生活中的所有人所接受。
+但是，这种新博雅学科的大师们是追求实践的人，他们所采用的思维方式正逐渐被日常生活中的所有人所接受。
 
-A common discipline of design thinking——more than the particular products created by that discipline today——is changing our culture, not only in its external manifestations but in its internal character.
+> A common discipline of design thinking——more than the particular products created by that discipline today——is changing our culture, not only in its external manifestations but in its internal character.
+>
 
-一个设计思维的通用学科——不仅仅现今是创造特定产品的那个学科——正在改变着我们的文化，不仅表现在外在表现上，也表现在它的内在特征中。
+一个设计思维的通用学科——不仅仅现今是创造特定产品的学科——正在改变着我们的文化，不仅表现在外在表现上，也表现在它的内在特征中。

@@ -15,9 +15,9 @@
 
   * [定位理论](3-The Doctrine of Placements.md)
 
-  * [设计的「抗解问题」理论](4-设计的「抗解问题」理论.md)
+  * [设计的「抗解问题」理论](4-The Wicked Problems Theory of Design.md)
 
-  * [ 设计与技术](5- 设计与技术.md)
+  * [ 设计与技术](5-Design and Technology.md)
 
 
 -----
