@@ -11,11 +11,15 @@
 
 >  They are drawn together because they share a mutual interest in a common theme: the conception and planning of the artificial. 
 
-他们聚集在一起是因为他们对一个共同的主题有共同的兴趣：「人造物的构想和规划」。
+他们聚集在一起是因为他们对一个共同的主题有共同的兴趣：「人工构想和规划」。
 
 > Different definitions of design and different specifications of the methodology of design are variations of this broad theme, each a concrete exploration of what is possible in the development of its meanings and implications. 
 
-不同的设计定义和不同的设计方法是这一广泛主题的主要变量，任何一个定义或者方法都是一种具体的有助于设计意义发展的探索。
+不同的设计定义和不同的设计方法是这一广泛主题的主要变量，任何一个定义或者方法都是一种具体的有助于探索设计的意义。
+
+```
+
+```
 
 > Communication is possible at such meetings because the results of research and discussion, despite wide differences in intellectual and practcal perspectives, are always connected by this theme and, therefore, supplemental.
 
@@ -403,11 +407,11 @@ Rittel 或者其他任何研究「抗解问题」的人都没有试图去回答�
 
 > This is the designer's view of what is meant, for example, by the “artificial” in relation to the “natural.”
 
-形成的观点可能是与“自然物”相对的 “人工” 。
+形成的观点可能是与“自然物”相对的 「人工」。
 
 ```
 就是说设计师在探索与用什么样的概念来理解他们做的东西，从宏观层面上来说，得到的概念可能就是「人工」这样的。
-人工的概念会比较大，可能既包含人造物，也包含人工规划的计划、行为等等。
+
 ```
 
 > In this sense, the designer holds a broad view of the nature of design and the proper scope of its application. 
@@ -549,6 +553,10 @@ invention 有“内心捏造的东西”这个意思。
 这里说的这句话有点绕口。
 我觉得是说我可以用定位的方法来确定不同学科的知识对于设计这个产品的相关性有多少用。比如在做人机工程学椅子的时候确定人机工程相关性为80%，XXX 学科相关性是20%等等等。这样就不用陷死在一个学科里。
 ```
+
+![](http://ox55f9bg6.bkt.clouddn.com/2017-12-22-005320.png)
+
+![](http://ox55f9bg6.bkt.clouddn.com/2017-12-22-005353.png)
 
 > In effect, the working hypothesis that will lead to a particular product is the principle of relevance, guiding the efforts of designers to gather all available knowledge bearing on how a product is finally planned.
 

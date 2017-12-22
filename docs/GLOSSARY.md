@@ -76,6 +76,10 @@ operations 作为复数，在可数名词中只有「企业」和「（有目的
 
 因此 intentional operations 的意思则应该是 「经过策划的活动」，这里翻译为目的性活动。
 
+## artificial 人工
+
+artificial 可指人造物，也可以指人工的一些活动。譬如活动计划这些也算是人工。在本文中所有 artificial 都用「人工」来指代。因此人工的概念会比较大，既包含人造物，也包含人工规划的计划、行为等等。
+
 ## 实用主义
 
 **实用主义**（英语：**Pragmatism**，派生于[希腊](https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%85%8A)词πρᾶγμα（事物、实物））又称[实验主义](https://zh.wikipedia.org/wiki/%E5%AF%A6%E9%A9%97%E4%B8%BB%E7%BE%A9)、[试验主义](https://zh.wikipedia.org/w/index.php?title=%E8%A9%A6%E9%A9%97%E4%B8%BB%E7%BE%A9&action=edit&redlink=1)，是产生于19世纪70年代的现代[哲学](https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%A6)派别，在20世纪的[美国](https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD)成为一种主流思潮。对[法律](https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B)、[政治](https://zh.wikipedia.org/wiki/%E6%94%BF%E6%B2%BB)、[教育](https://zh.wikipedia.org/wiki/%E6%95%99%E8%82%B2)、社会、[宗教](https://zh.wikipedia.org/wiki/%E5%AE%97%E6%95%99)和[艺术](https://zh.wikipedia.org/wiki/%E8%89%BA%E6%9C%AF)的研究产生了很大的影响。
