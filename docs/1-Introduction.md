@@ -1,6 +1,5 @@
 # Introduction / 简介：设计与博雅学科
 
-
 > Despite efforts to discover the foundations of design thinking in the fine arts, the natural sciences, or most recently, the social sciences, design eludes reduction and remains a surprisingly flexible activity.
 
 尽管人们很努力地发现了设计思维存在于艺术、自然科学和社会科学等学科之中的「地基」，但是设计的灵活性和不确定性并没有因此减少。
@@ -20,7 +19,7 @@ design eludes reduction 设计避免减少了什么？是设计活动减少？�
 工业设计也好，视觉设计也好，在设计学的语境下看，有的问题可能适合用工业设计方法，有的问题可能适用视觉传达的方法，有的问题可能都适用而且都需要。而单一的学科领域的方法并没法解决所有的设计问题。
 ```
 
-> Indeed, the variety of research reported in conference papers, journal articles, and books suggests that design continues to expand in its meanings and connections, revealing unexpected dimensions in practice as well as understanding. 
+> Indeed, the variety of research reported in conference papers, journal articles, and books suggests that design continues to expand in its meanings and connections, revealing unexpected dimensions in practice as well as understanding.
 
 事实上，在会议论文、期刊文章和书籍中报道的各种研究表明，「设计」在不停地扩大自己的内涵，与其他学科建立更多联系，并在这个过程中揭示出实践中不曾预期的维度信息和认知。
 
@@ -28,11 +27,11 @@ design eludes reduction 设计避免减少了什么？是设计活动减少？�
 revealing 是一个动名词，表示一个伴随状态。
 ```
 
-> This follows the trend of design thinking in the twentieth century, for we have seen design grow from *a trade activity to a segmented profession* to *a field for technical research* and to what now should be recognized as *a new liberal art of technological culture*.
+> This follows the trend of design thinking in the twentieth century, for we have seen design grow from _a trade activity to a segmented profession_ to _a field for technical research_ and to what now should be recognized as _a new liberal art of technological culture_.
 
 二十世纪设计思维的趋势正是如此，因为我们已经见证了设计从一个细分行业的贸易活动发展到了研究技术的领域，如今更是变成了一种科技文化下的新博雅学科。
 
-> It may seem unusual to talk about design as a liberal art, particularly when many people are accustomed to identifying the liberal arts with the traditional “arts and sciences" that are institutionalized in colleges and universities. 
+> It may seem unusual to talk about design as a liberal art, particularly when many people are accustomed to identifying the liberal arts with the traditional “arts and sciences" that are institutionalized in colleges and universities.
 
 把设计作为一门博雅学科来谈论似乎非常罕见，尤其是还有很多人习惯用学院式的方式把博雅学科视为传统科学艺术。
 
@@ -48,15 +47,15 @@ revealing 是一个动名词，表示一个伴随状态。
 
 为了理解现在正在发生的改变，知道如今的博雅学科的内容并不是什么新东西是非常重要的。
 
-> They originated in the Renaissance and underwent prolonged development that culminated in the nineteenth century as a vision of an encyclopedic education of *beaux arts*, *belles lettres*, history, various natural sciences and mathematics, philosophy, and the fledgling social sciences. 
+> They originated in the Renaissance and underwent prolonged development that culminated in the nineteenth century as a vision of an encyclopedic education of _beaux arts_, _belles lettres_, history, various natural sciences and mathematics, philosophy, and the fledgling social sciences.
 
 博雅学科（在这句里更适合称为博雅教育）起源于文艺复兴时期，经历了漫长的发展，最终在19世纪达到了一个极致，成为了一套广博的教育体系，其包含了艺术、文学、历史、各种自然科学、数学、哲学，以及那个时候刚刚兴起的社会科学。
 
-> This circle of learning was divided into particular subject matters, each with a proper method or set of methods suitable to its exploration. 
+> This circle of learning was divided into particular subject matters, each with a proper method or set of methods suitable to its exploration.
 
 它的知识领域被分成了一些特定的主题，每个主题都有一个或者一套适当的、适合于其探索的方法。
 
-> At their peak as liberal arts, these subject matters provided an integrated understanding of human experience and the array of available knowledge. 
+> At their peak as liberal arts, these subject matters provided an integrated understanding of human experience and the array of available knowledge.
 
 在博雅学科发展的鼎盛时期，这些主题能够基于已有知识与人类经验获得一个全面的认知。
 
@@ -77,7 +76,7 @@ a patchwork quilt 的意思是「用小块布缝缀的被罩」。这里将细�
 这和博雅学科面临的情况十分像。博雅学科在19世纪达到巅峰，应该是指那个时期的学科知识「刚刚好」，分化也还没有那么严重，所以每个人都能够对这些学科有个非常全面而整体的认知理解，不至于陷到细节里面。而随着知识领域的划分，对于整体的把握就变得十分困难了。
 ```
 
-> Today, these subject matters retain an echo of their old status as liberal arts, but they flourish as specialized studies, leading to the perception of an ever more rich and detailed array of facts and values. 
+> Today, these subject matters retain an echo of their old status as liberal arts, but they flourish as specialized studies, leading to the perception of an ever more rich and detailed array of facts and values.
 
 如今，这些主题保留了旧时博雅学科的身份，但他们实际上却是以细分领域的形式蓬勃发展，并使得人们对这些领域下的客观事实和它们的价值有了更加丰富和细致的感知。
 
@@ -100,8 +99,7 @@ an echo of their old status as liberal arts echo 有“回声、回想、重复�
 前面一句话相对好理解，但是后面一句话可能会让人觉得有点难。将专业领域细分之后带来的问题是除了主题本身的脱节，也与与一般问题脱节了。这个应该是对博雅学科的理解上存在偏差。我们可能认为博雅学科不过是一堆细分学科的合集，但是根据作者的意思来看并不是这样。实际上应该是下图左边的模式。
 ```
 
-
-![](http://ox55f9bg6.bkt.clouddn.com/2017-12-05-072332.png)
+![](http://pics.arvinx.com/2017-12-05-072332.png)
 
 ```
 可以注意到博雅学科的中心，或者说聚焦的关键是一般问题，而各个主题从一般问题出发衍生自己主题的知识，并在主题之间互相交叉。
@@ -113,7 +111,7 @@ an echo of their old status as liberal arts echo 有“回声、回想、重复�
 不对，应该就是一般问题，句子逻辑是这样的：他们本该从一般问题去分析，但是现在这个关联被打断了。
 ```
 
-> The search for new integrative disciplines to complement the arts and sciences has become one of the central themes of intellectual and practical life in the twentieth century. 
+> The search for new integrative disciplines to complement the arts and sciences has become one of the central themes of intellectual and practical life in the twentieth century.
 
 寻找新的综合学科来补充旧时博雅学科（科学艺术）的地位，已成为二十世纪理论和实践的中心课题之一。
 
@@ -138,7 +136,7 @@ intellectual and practical life 我翻译为理论和实践。intellectual 意�
 逻辑实证主义和逻辑经验主义，共同形成了新实证主义，也被称为科学经验主义。新实证主义者的研究兴趣在于对科学的整合和统一，以及对科学方法的正确描绘。
 ```
 
-> Rather, it lies in a concern to connect and integrate useful knowledge from the arts and sciences alike, but in ways that are suited to the problems and purposes of the present. 
+> Rather, it lies in a concern to connect and integrate useful knowledge from the arts and sciences alike, but in ways that are suited to the problems and purposes of the present.
 
 恰恰相反，我们这么做的意义在于连接和整合如同博雅学科中的一些有用的知识。不过和旧博雅学科的区别在于，这些知识是适用如今存在的各种问题和目的。
 
@@ -149,4 +147,6 @@ intellectual and practical life 我翻译为理论和实践。intellectual 意�
 ```
 turn to 有 ”转向, 变成, 求助于, 起劲地开始行动“的意思。这里是指研究者把目光转向了设计思维，希望能够通过研究清楚设计的思想来洞察设计这门新博雅学科。
 ```
+
+
 
